@@ -33,7 +33,6 @@ pip install -r requirements.txt
 POSTGRES_USER=postgres
 POSTGRES_PASSWORD=postgres
 POSTGRES_DB=pokemon_db
-POSTGRES_HOST=127.0.0.1
 POSTGRES_PORT=5433
 ```
 
