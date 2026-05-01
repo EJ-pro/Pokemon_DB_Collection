@@ -16,6 +16,87 @@
 4. **진화 파이프라인**: `evolutions` (1세대 내 진화 조건 및 도구 매핑)
 5. **전투 및 도구**: `moves`, `items`
 
+### ERD (Entity Relationship Diagram)
+
+```mermaid
+erDiagram
+    pokemon ||--|| pokemon_stats : "has stats"
+    pokemon ||--o{ pokemon_types : "has types"
+    pokemon ||--o{ species : "belongs to"
+    types ||--o{ pokemon_types : "categorizes"
+    types ||--o{ type_efficacy : "damage relationship"
+    types ||--o{ moves : "associated with"
+    species ||--o{ flavor_text : "has descriptions"
+    species ||--o{ evolutions : "from/to"
+    items ||--o{ evolutions : "triggers"
+
+    pokemon {
+        int id PK
+        string name
+        int height
+        int weight
+        int base_exp
+    }
+    pokemon_stats {
+        int pokemon_id PK, FK
+        int hp
+        int attack
+        int defense
+        int sp_attack
+        int sp_defense
+        int speed
+    }
+    types {
+        int id PK
+        string name
+    }
+    pokemon_types {
+        int pokemon_id PK, FK
+        int type_id PK, FK
+        int slot
+    }
+    type_efficacy {
+        int damage_type_id PK, FK
+        int target_type_id PK, FK
+        float damage_factor
+    }
+    species {
+        int id PK
+        int pokemon_id FK
+        int generation
+        int capture_rate
+    }
+    flavor_text {
+        int id PK
+        int species_id FK
+        string version_name
+        string content
+        vector embedding
+    }
+    moves {
+        int id PK
+        string name
+        int type_id FK
+        int power
+        int accuracy
+        string effect_text
+        vector embedding
+    }
+    items {
+        int id PK
+        string name
+        string category
+        string effect_text
+    }
+    evolutions {
+        int id PK
+        int from_species_id FK
+        int to_species_id FK
+        int min_level
+        int trigger_item_id FK
+    }
+```
+
 ---
 
 ## 🚀 실행 파이프라인 (How to Run)
