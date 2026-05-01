@@ -144,15 +144,15 @@ if __name__ == "__main__":
         cursor = conn.cursor()
         
         print("Loading additional data into Database...")
-        # load_types(cursor)
-        # load_type_efficacy(cursor)
-        # load_pokemon(cursor)
-        # load_pokemon_stats(cursor)
-        # load_pokemon_types(cursor)
-        # load_species(cursor)
+        load_types(cursor)
+        load_type_efficacy(cursor)
+        load_pokemon(cursor)
+        load_pokemon_stats(cursor)
+        load_pokemon_types(cursor)
+        load_species(cursor)
         
-        # cursor.execute("TRUNCATE TABLE flavor_text RESTART IDENTITY;")
-        # load_flavor_text(cursor)
+        cursor.execute("TRUNCATE TABLE flavor_text RESTART IDENTITY;")
+        load_flavor_text(cursor)
 
         load_items(cursor)
         load_moves(cursor)
