@@ -1,0 +1,1322 @@
+[
+  {
+    "id": 1,
+    "name": "막치기",
+    "type_id": 1,
+    "power": 40,
+    "accuracy": 100,
+    "effect_text": "긴 꼬리나 손 등을 사용하여 상대를 때려서 공격한다."
+  },
+  {
+    "id": 2,
+    "name": "태권당수",
+    "type_id": 2,
+    "power": 50,
+    "accuracy": 100,
+    "effect_text": "날카로운 당수로 상대를 때려서 공격한다. 급소에 맞기 쉽다."
+  },
+  {
+    "id": 3,
+    "name": "연속뺨치기",
+    "type_id": 1,
+    "power": 15,
+    "accuracy": 85,
+    "effect_text": "연속 뺨치기로 상대를 때려서 공격한다. 2-5회 동안 연속으로 쓴다."
+  },
+  {
+    "id": 4,
+    "name": "연속펀치",
+    "type_id": 1,
+    "power": 18,
+    "accuracy": 85,
+    "effect_text": "노도 같은 펀치로 상대를 세게 때려서 공격한다. 2-5회 동안 연속으로 쓴다."
+  },
+  {
+    "id": 5,
+    "name": "메가톤펀치",
+    "type_id": 1,
+    "power": 80,
+    "accuracy": 85,
+    "effect_text": "힘을 담은 펀치로 상대를 공격한다."
+  },
+  {
+    "id": 6,
+    "name": "고양이돈받기",
+    "type_id": 1,
+    "power": 40,
+    "accuracy": 100,
+    "effect_text": "상대의 몸에 돈을 세게 던져서 공격한다. 배틀 후에 돈을 받을 수 있다."
+  },
+  {
+    "id": 7,
+    "name": "불꽃펀치",
+    "type_id": 10,
+    "power": 75,
+    "accuracy": 100,
+    "effect_text": "불꽃을 담은 펀치로 상대를 공격한다. 화상 상태로 만들 때가 있다."
+  },
+  {
+    "id": 8,
+    "name": "냉동펀치",
+    "type_id": 15,
+    "power": 75,
+    "accuracy": 100,
+    "effect_text": "냉기를 담은 펀치로 상대를 공격한다. 얼음 상태로 만들 때가 있다."
+  },
+  {
+    "id": 9,
+    "name": "번개펀치",
+    "type_id": 13,
+    "power": 75,
+    "accuracy": 100,
+    "effect_text": "전격을 담은 펀치로 상대를 공격한다. 마비 상태로 만들 때가 있다."
+  },
+  {
+    "id": 10,
+    "name": "할퀴기",
+    "type_id": 1,
+    "power": 40,
+    "accuracy": 100,
+    "effect_text": "단단하고 뾰족한 날카로운 손톱으로 상대를 할퀴어서 공격한다."
+  },
+  {
+    "id": 11,
+    "name": "찝기",
+    "type_id": 1,
+    "power": 55,
+    "accuracy": 100,
+    "effect_text": "상대를 양쪽에서 집어서 데미지를 준다."
+  },
+  {
+    "id": 12,
+    "name": "가위자르기",
+    "type_id": 1,
+    "power": null,
+    "accuracy": 30,
+    "effect_text": "큰 집게로 상대를 베어 갈라 공격한다. 맞으면 일격에 기절한다."
+  },
+  {
+    "id": 13,
+    "name": "칼바람",
+    "type_id": 1,
+    "power": 80,
+    "accuracy": 100,
+    "effect_text": "바람의 칼날을 만들어 2턴째에 상대를 공격한다. 급소에 맞기 쉽다."
+  },
+  {
+    "id": 14,
+    "name": "칼춤",
+    "type_id": 1,
+    "power": null,
+    "accuracy": null,
+    "effect_text": "싸움의 춤을 격렬하게 추며 기세를 높인다. 자신의 공격을 크게 올린다."
+  },
+  {
+    "id": 15,
+    "name": "풀베기",
+    "type_id": 1,
+    "power": 50,
+    "accuracy": 95,
+    "effect_text": "낫이나 발톱 등으로 상대를 베어 공격한다. 가느다란 나무도 자를 수 있다."
+  },
+  {
+    "id": 16,
+    "name": "바람일으키기",
+    "type_id": 3,
+    "power": 40,
+    "accuracy": 100,
+    "effect_text": "날개로 일으킨 격한 바람을 상대에게 부딪쳐서 공격한다."
+  },
+  {
+    "id": 17,
+    "name": "날개치기",
+    "type_id": 3,
+    "power": 60,
+    "accuracy": 100,
+    "effect_text": "크게 펼친 훌륭한 날개를 상대에게 부딪쳐서 공격한다."
+  },
+  {
+    "id": 18,
+    "name": "날려버리기",
+    "type_id": 1,
+    "power": null,
+    "accuracy": null,
+    "effect_text": "상대를 날려버려서 교대할 포켓몬을 끌어낸다. 야생의 경우에는 배틀이 끝난다."
+  },
+  {
+    "id": 19,
+    "name": "공중날기",
+    "type_id": 3,
+    "power": 90,
+    "accuracy": 95,
+    "effect_text": "1턴째에 하늘을 날아 2턴째에 상대를 공격한다. 알고 있는 도시로 날아갈 수 있다."
+  },
+  {
+    "id": 20,
+    "name": "조이기",
+    "type_id": 1,
+    "power": 15,
+    "accuracy": 85,
+    "effect_text": "긴 몸이나 덩굴 등을 써서 4-5턴 동안 상대를 조여 공격한다."
+  },
+  {
+    "id": 21,
+    "name": "힘껏치기",
+    "type_id": 1,
+    "power": 80,
+    "accuracy": 75,
+    "effect_text": "긴 꼬리나 덩굴 등을 사용해 상대를 힘껏 쳐서 공격한다."
+  },
+  {
+    "id": 22,
+    "name": "덩굴채찍",
+    "type_id": 12,
+    "power": 45,
+    "accuracy": 100,
+    "effect_text": "채찍처럼 휘어지는 가늘고 긴 덩굴로 상대를 힘껏 쳐서 공격한다."
+  },
+  {
+    "id": 23,
+    "name": "짓밟기",
+    "type_id": 1,
+    "power": 65,
+    "accuracy": 100,
+    "effect_text": "큰 발로 상대를 짓밟아서 공격한다. 상대를 풀죽게 만들 때가 있다."
+  },
+  {
+    "id": 24,
+    "name": "두번치기",
+    "type_id": 2,
+    "power": 30,
+    "accuracy": 100,
+    "effect_text": "2개의 다리로 상대를 걷어차서 공격한다. 2회 연속으로 데미지를 준다."
+  },
+  {
+    "id": 25,
+    "name": "메가톤킥",
+    "type_id": 1,
+    "power": 120,
+    "accuracy": 75,
+    "effect_text": "굉장한 힘을 담은 킥으로 상대를 걷어차서 공격한다."
+  },
+  {
+    "id": 26,
+    "name": "점프킥",
+    "type_id": 2,
+    "power": 100,
+    "accuracy": 95,
+    "effect_text": "높이 점프해서 킥으로 상대를 공격한다. 빗나가면 자신이 데미지를 입는다."
+  },
+  {
+    "id": 27,
+    "name": "돌려차기",
+    "type_id": 2,
+    "power": 60,
+    "accuracy": 85,
+    "effect_text": "몸을 재빨리 회전시키며 걷어차서 공격한다. 상대를 풀죽게 만들 때가 있다."
+  },
+  {
+    "id": 28,
+    "name": "모래뿌리기",
+    "type_id": 5,
+    "power": null,
+    "accuracy": 100,
+    "effect_text": "상대의 얼굴에 모래를 뿌려서 명중률을 떨어뜨린다."
+  },
+  {
+    "id": 29,
+    "name": "박치기",
+    "type_id": 1,
+    "power": 70,
+    "accuracy": 100,
+    "effect_text": "머리를 내밀어 곧장 돌진하여 공격한다. 상대를 풀죽게 만들 때가 있다."
+  },
+  {
+    "id": 30,
+    "name": "뿔찌르기",
+    "type_id": 1,
+    "power": 65,
+    "accuracy": 100,
+    "effect_text": "날카롭고 뾰족한 뿔로 상대를 공격한다."
+  },
+  {
+    "id": 31,
+    "name": "마구찌르기",
+    "type_id": 1,
+    "power": 15,
+    "accuracy": 85,
+    "effect_text": "뿔이나 부리로 상대를 찔러서 공격한다. 2-5회 동안 연속으로 쓴다."
+  },
+  {
+    "id": 32,
+    "name": "뿔드릴",
+    "type_id": 1,
+    "power": null,
+    "accuracy": 30,
+    "effect_text": "회전하는 뿔을 상대에게 꿰찔러서 공격한다. 맞으면 일격에 기절한다."
+  },
+  {
+    "id": 33,
+    "name": "몸통박치기",
+    "type_id": 1,
+    "power": 40,
+    "accuracy": 100,
+    "effect_text": "상대를 향해서 몸 전체를 부딪쳐가며 공격한다."
+  },
+  {
+    "id": 34,
+    "name": "누르기",
+    "type_id": 1,
+    "power": 85,
+    "accuracy": 100,
+    "effect_text": "몸 전체로 상대를 덮쳐 눌러 공격한다. 마비 상태로 만들 때가 있다."
+  },
+  {
+    "id": 35,
+    "name": "김밥말이",
+    "type_id": 1,
+    "power": 15,
+    "accuracy": 90,
+    "effect_text": "긴 몸이나 덩굴 등을 사용해 4-5턴 동안 상대를 휘감아 공격한다."
+  },
+  {
+    "id": 36,
+    "name": "돌진",
+    "type_id": 1,
+    "power": 90,
+    "accuracy": 85,
+    "effect_text": "굉장한 기세로 상대에게 부딪쳐 공격한다. 자신도 조금 데미지를 입는다."
+  },
+  {
+    "id": 37,
+    "name": "난동부리기",
+    "type_id": 1,
+    "power": 120,
+    "accuracy": 100,
+    "effect_text": "2-3턴 동안 마구 난동 부려서 상대를 공격한다. 난동 부린 뒤에는 혼란에 빠진다."
+  },
+  {
+    "id": 38,
+    "name": "이판사판태클",
+    "type_id": 1,
+    "power": 120,
+    "accuracy": 100,
+    "effect_text": "목숨을 걸고 상대에게 돌진하여 공격을 한다. 자신도 상당한 데미지를 입는다."
+  },
+  {
+    "id": 39,
+    "name": "꼬리흔들기",
+    "type_id": 1,
+    "power": null,
+    "accuracy": 100,
+    "effect_text": "꼬리를 좌우로 귀엽게 흔들어 방심을 유도한다. 상대의 방어를 떨어뜨린다."
+  },
+  {
+    "id": 40,
+    "name": "독침",
+    "type_id": 4,
+    "power": 15,
+    "accuracy": 100,
+    "effect_text": "독이 있는 침을 상대에게 꿰찔러서 공격한다. 독 상태로 만들 때가 있다."
+  },
+  {
+    "id": 41,
+    "name": "더블니들",
+    "type_id": 7,
+    "power": 25,
+    "accuracy": 100,
+    "effect_text": "2개의 침을 상대에게 꿰찔러 2회 연속으로 데미지를 준다. 독 상태로 만들 때가 있다."
+  },
+  {
+    "id": 42,
+    "name": "바늘미사일",
+    "type_id": 7,
+    "power": 25,
+    "accuracy": 95,
+    "effect_text": "날카로운 침을 상대에게 발사해서 공격한다. 2-5회 동안 연속으로 쓴다."
+  },
+  {
+    "id": 43,
+    "name": "째려보기",
+    "type_id": 1,
+    "power": null,
+    "accuracy": 100,
+    "effect_text": "날카로운 눈초리로 겁을 주어 상대의 방어를 떨어뜨린다."
+  },
+  {
+    "id": 44,
+    "name": "물기",
+    "type_id": 17,
+    "power": 60,
+    "accuracy": 100,
+    "effect_text": "날카롭고 뾰족한 이빨로 물어서 공격한다. 상대를 풀죽게 만들 때가 있다."
+  },
+  {
+    "id": 45,
+    "name": "울음소리",
+    "type_id": 1,
+    "power": null,
+    "accuracy": 100,
+    "effect_text": "귀여운 울음소리를 들려주고 관심을 끌어 방심한 사이에 상대의 공격을 떨어뜨린다."
+  },
+  {
+    "id": 46,
+    "name": "울부짖기",
+    "type_id": 1,
+    "power": null,
+    "accuracy": null,
+    "effect_text": "상대를 도망가게 해서 교대할 포켓몬을 끌어낸다. 야생의 경우에는 배틀이 끝난다."
+  },
+  {
+    "id": 47,
+    "name": "노래하기",
+    "type_id": 1,
+    "power": null,
+    "accuracy": 55,
+    "effect_text": "기분 좋은 예쁜 노랫소리를 들려주고 상대를 잠듦 상태로 만든다."
+  },
+  {
+    "id": 48,
+    "name": "초음파",
+    "type_id": 1,
+    "power": null,
+    "accuracy": 55,
+    "effect_text": "특수한 음파를 몸에서 발산하여 상대를 혼란시킨다."
+  },
+  {
+    "id": 49,
+    "name": "소닉붐",
+    "type_id": 1,
+    "power": null,
+    "accuracy": 90,
+    "effect_text": "충격파를 상대에 부딪쳐서 공격한다. 언제나 20의 데미지를 준다."
+  },
+  {
+    "id": 50,
+    "name": "사슬묶기",
+    "type_id": 1,
+    "power": null,
+    "accuracy": 100,
+    "effect_text": "상대의 움직임을 막아 바로 전에 쓴 기술을 4턴 동안 사용할 수 없게 만든다."
+  },
+  {
+    "id": 51,
+    "name": "용해액",
+    "type_id": 4,
+    "power": 40,
+    "accuracy": 100,
+    "effect_text": "강한 산을 상대에게 끼얹어 공격한다. 상대의 특수방어를 떨어뜨릴 때가 있다."
+  },
+  {
+    "id": 52,
+    "name": "불꽃세례",
+    "type_id": 10,
+    "power": 40,
+    "accuracy": 100,
+    "effect_text": "작은 불꽃을 상대에게 발사하여 공격한다. 화상 상태로 만들 때가 있다."
+  },
+  {
+    "id": 53,
+    "name": "화염방사",
+    "type_id": 10,
+    "power": 90,
+    "accuracy": 100,
+    "effect_text": "세찬 불꽃을 상대에게 발사하여 공격한다. 화상 상태로 만들 때가 있다."
+  },
+  {
+    "id": 54,
+    "name": "흰안개",
+    "type_id": 15,
+    "power": null,
+    "accuracy": null,
+    "effect_text": "하얀 안개로 몸을 덮는다. 5턴 동안 상대에 의해 능력이 떨어지지 않게 된다."
+  },
+  {
+    "id": 55,
+    "name": "물대포",
+    "type_id": 11,
+    "power": 40,
+    "accuracy": 100,
+    "effect_text": "물을 기세 좋게 상대에게 발사하여 공격한다."
+  },
+  {
+    "id": 56,
+    "name": "하이드로펌프",
+    "type_id": 11,
+    "power": 110,
+    "accuracy": 80,
+    "effect_text": "대량의 물을 세찬 기세로 상대에게 발사하여 공격한다."
+  },
+  {
+    "id": 57,
+    "name": "파도타기",
+    "type_id": 11,
+    "power": 90,
+    "accuracy": 100,
+    "effect_text": "큰 파도로 자신의 주위에 있는 포켓몬을 공격한다. 물 위도 헤엄쳐서 나아간다."
+  },
+  {
+    "id": 58,
+    "name": "냉동빔",
+    "type_id": 15,
+    "power": 90,
+    "accuracy": 100,
+    "effect_text": "냉동빔을 상대에게 발사하여 공격한다. 얼음 상태로 만들 때가 있다."
+  },
+  {
+    "id": 59,
+    "name": "눈보라",
+    "type_id": 15,
+    "power": 110,
+    "accuracy": 70,
+    "effect_text": "세찬 눈보라를 상대에게 내뿜어 공격한다. 얼음 상태로 만들 때가 있다."
+  },
+  {
+    "id": 60,
+    "name": "환상빔",
+    "type_id": 14,
+    "power": 65,
+    "accuracy": 100,
+    "effect_text": "이상한 광선을 상대에게 발사하여 공격한다. 혼란시킬 때가 있다."
+  },
+  {
+    "id": 61,
+    "name": "거품광선",
+    "type_id": 11,
+    "power": 65,
+    "accuracy": 100,
+    "effect_text": "거품을 기세 좋게 상대에게 발사하여 공격한다. 스피드를 떨어뜨릴 때가 있다."
+  },
+  {
+    "id": 62,
+    "name": "오로라빔",
+    "type_id": 15,
+    "power": 65,
+    "accuracy": 100,
+    "effect_text": "무지개색의 빔을 상대에게 발사하여 공격한다. 공격을 떨어뜨릴 때가 있다."
+  },
+  {
+    "id": 63,
+    "name": "파괴광선",
+    "type_id": 1,
+    "power": 150,
+    "accuracy": 90,
+    "effect_text": "강한 광선을 상대에게 발사하여 공격한다. 다음 턴은 움직일 수 없다."
+  },
+  {
+    "id": 64,
+    "name": "쪼기",
+    "type_id": 3,
+    "power": 35,
+    "accuracy": 100,
+    "effect_text": "날카롭고 뾰족한 부리나 뿔로 상대를 쪼아서 공격한다."
+  },
+  {
+    "id": 65,
+    "name": "회전부리",
+    "type_id": 3,
+    "power": 80,
+    "accuracy": 100,
+    "effect_text": "회전하면서 뾰족한 부리를 상대에게 꿰찔러 공격한다."
+  },
+  {
+    "id": 66,
+    "name": "지옥의바퀴",
+    "type_id": 2,
+    "power": 80,
+    "accuracy": 80,
+    "effect_text": "땅에 자신과 함께 상대를 내던져 공격한다. 자신도 조금 데미지를 입는다."
+  },
+  {
+    "id": 67,
+    "name": "안다리걸기",
+    "type_id": 2,
+    "power": null,
+    "accuracy": 100,
+    "effect_text": "발을 강하게 걸고 상대를 넘어뜨려 공격한다. 상대가 무거울수록 위력이 올라간다."
+  },
+  {
+    "id": 68,
+    "name": "카운터",
+    "type_id": 2,
+    "power": null,
+    "accuracy": 100,
+    "effect_text": "상대로부터 받은 물리공격의 데미지를 2배로 만들어 같은 상대에게 돌려준다."
+  },
+  {
+    "id": 69,
+    "name": "지구던지기",
+    "type_id": 2,
+    "power": null,
+    "accuracy": 100,
+    "effect_text": "인력을 사용해 내던진다. 자신의 레벨과 똑같은 데미지를 상대에게 준다."
+  },
+  {
+    "id": 70,
+    "name": "괴력",
+    "type_id": 1,
+    "power": 80,
+    "accuracy": 100,
+    "effect_text": "혼신의 힘으로 상대를 세게 때려서 공격한다. 무거운 돌을 밀 수도 있다."
+  },
+  {
+    "id": 71,
+    "name": "흡수",
+    "type_id": 12,
+    "power": 20,
+    "accuracy": 100,
+    "effect_text": "양분을 흡수하여 공격한다. 상대에게 입힌 데미지의 절반에 해당하는 HP를 회복할 수 있다."
+  },
+  {
+    "id": 72,
+    "name": "메가드레인",
+    "type_id": 12,
+    "power": 40,
+    "accuracy": 100,
+    "effect_text": "양분을 흡수하여 공격한다. 상대에게 입힌 데미지의 절반에 해당하는 HP를 회복할 수 있다."
+  },
+  {
+    "id": 73,
+    "name": "씨뿌리기",
+    "type_id": 12,
+    "power": null,
+    "accuracy": 90,
+    "effect_text": "씨가 뿌려진 상대의 HP를 매 턴 조금씩 흡수하여 자신의 HP를 회복한다."
+  },
+  {
+    "id": 74,
+    "name": "성장",
+    "type_id": 1,
+    "power": null,
+    "accuracy": null,
+    "effect_text": "몸을 일시에 크게 성장시켜 공격과 특수공격을 올린다."
+  },
+  {
+    "id": 75,
+    "name": "잎날가르기",
+    "type_id": 12,
+    "power": 55,
+    "accuracy": 95,
+    "effect_text": "잎사귀를 날려 상대를 베어 공격한다. 급소에 맞기 쉽다."
+  },
+  {
+    "id": 76,
+    "name": "솔라빔",
+    "type_id": 12,
+    "power": 120,
+    "accuracy": 100,
+    "effect_text": "1턴째에 빛을 가득 모아 2턴째에 빛의 다발을 발사하여 공격한다."
+  },
+  {
+    "id": 77,
+    "name": "독가루",
+    "type_id": 4,
+    "power": null,
+    "accuracy": 75,
+    "effect_text": "독이 있는 가루를 많이 흩뿌려서 상대를 독 상태로 만든다."
+  },
+  {
+    "id": 78,
+    "name": "저리가루",
+    "type_id": 12,
+    "power": null,
+    "accuracy": 75,
+    "effect_text": "저리 가루를 많이 흩뿌려서 상대를 마비 상태로 만든다."
+  },
+  {
+    "id": 79,
+    "name": "수면가루",
+    "type_id": 12,
+    "power": null,
+    "accuracy": 75,
+    "effect_text": "잠이 오는 가루를 많이 흩뿌려서 상대를 잠듦 상태로 만든다."
+  },
+  {
+    "id": 80,
+    "name": "꽃잎댄스",
+    "type_id": 12,
+    "power": 120,
+    "accuracy": 100,
+    "effect_text": "2-3턴 동안 꽃을 흩뿌려서 상대를 공격한다. 흩뿌린 뒤에는 혼란에 빠진다."
+  },
+  {
+    "id": 81,
+    "name": "실뿜기",
+    "type_id": 7,
+    "power": null,
+    "accuracy": 95,
+    "effect_text": "입에서 뿜어낸 실을 휘감아서 상대의 스피드를 크게 떨어뜨린다."
+  },
+  {
+    "id": 82,
+    "name": "용의분노",
+    "type_id": 16,
+    "power": null,
+    "accuracy": 100,
+    "effect_text": "분노의 충격파를 상대에게 부딪쳐서 공격한다. 언제나 40의 데미지를 준다."
+  },
+  {
+    "id": 83,
+    "name": "회오리불꽃",
+    "type_id": 10,
+    "power": 35,
+    "accuracy": 85,
+    "effect_text": "세차게 소용돌이치는 불꽃 속에 4-5턴 동안 상대를 가두어 공격한다."
+  },
+  {
+    "id": 84,
+    "name": "전기쇼크",
+    "type_id": 13,
+    "power": 40,
+    "accuracy": 100,
+    "effect_text": "전기 자극을 상대에게 날려서 공격한다. 마비 상태로 만들 때가 있다."
+  },
+  {
+    "id": 85,
+    "name": "10만볼트",
+    "type_id": 13,
+    "power": 90,
+    "accuracy": 100,
+    "effect_text": "강한 전격을 상대에게 날려서 공격한다. 마비 상태로 만들 때가 있다."
+  },
+  {
+    "id": 86,
+    "name": "전기자석파",
+    "type_id": 13,
+    "power": null,
+    "accuracy": 90,
+    "effect_text": "약한 전격을 날려서 상대를 마비 상태로 만든다."
+  },
+  {
+    "id": 87,
+    "name": "번개",
+    "type_id": 13,
+    "power": 110,
+    "accuracy": 70,
+    "effect_text": "강한 번개를 상대에게 떨어뜨려 공격한다. 마비 상태로 만들 때가 있다."
+  },
+  {
+    "id": 88,
+    "name": "돌떨구기",
+    "type_id": 6,
+    "power": 50,
+    "accuracy": 90,
+    "effect_text": "작은 바위를 들어올려 상대에게 내던져서 공격한다."
+  },
+  {
+    "id": 89,
+    "name": "지진",
+    "type_id": 5,
+    "power": 100,
+    "accuracy": 100,
+    "effect_text": "지진의 충격으로 자신의 주위에 있는 포켓몬을 공격한다."
+  },
+  {
+    "id": 90,
+    "name": "땅가르기",
+    "type_id": 5,
+    "power": null,
+    "accuracy": 30,
+    "effect_text": "땅이 갈라진 곳에 상대를 떨어뜨려 공격한다. 맞으면 일격에 기절한다."
+  },
+  {
+    "id": 91,
+    "name": "구멍파기",
+    "type_id": 5,
+    "power": 80,
+    "accuracy": 100,
+    "effect_text": "1턴째에 파고들어 2턴째에 상대를 공격한다. 동굴에서 탈출할 수도 있다."
+  },
+  {
+    "id": 92,
+    "name": "맹독",
+    "type_id": 4,
+    "power": null,
+    "accuracy": 90,
+    "effect_text": "상대를 맹독의 상태로 만든다. 턴이 진행될수록 독의 데미지가 증가한다."
+  },
+  {
+    "id": 93,
+    "name": "염동력",
+    "type_id": 14,
+    "power": 50,
+    "accuracy": 100,
+    "effect_text": "약한 염동력을 상대에게 보내어 공격한다. 상대를 혼란시킬 때가 있다."
+  },
+  {
+    "id": 94,
+    "name": "사이코키네시스",
+    "type_id": 14,
+    "power": 90,
+    "accuracy": 100,
+    "effect_text": "강한 염동력을 상대에게 보내어 공격한다. 상대의 특수방어를 떨어뜨릴 때가 있다."
+  },
+  {
+    "id": 95,
+    "name": "최면술",
+    "type_id": 14,
+    "power": null,
+    "accuracy": 60,
+    "effect_text": "졸음을 유도하는 암시를 걸어서 상대를 잠듦 상태로 만든다."
+  },
+  {
+    "id": 96,
+    "name": "요가포즈",
+    "type_id": 14,
+    "power": null,
+    "accuracy": null,
+    "effect_text": "잠들어 있는 힘을 몸속에서 끌어내어 자신의 공격을 올린다."
+  },
+  {
+    "id": 97,
+    "name": "고속이동",
+    "type_id": 14,
+    "power": null,
+    "accuracy": null,
+    "effect_text": "힘을 빼고 몸을 가볍게 해서 고속으로 움직인다. 자신의 스피드를 크게 올린다."
+  },
+  {
+    "id": 98,
+    "name": "전광석화",
+    "type_id": 1,
+    "power": 40,
+    "accuracy": 100,
+    "effect_text": "눈에 보이지 않는 굉장한 속도로 상대에게 돌진한다. 반드시 선제공격할 수 있다."
+  },
+  {
+    "id": 99,
+    "name": "분노",
+    "type_id": 1,
+    "power": 20,
+    "accuracy": 100,
+    "effect_text": "기술을 썼을 때 공격을 받으면 분노의 힘으로 공격이 올라간다."
+  },
+  {
+    "id": 100,
+    "name": "순간이동",
+    "type_id": 14,
+    "power": null,
+    "accuracy": null,
+    "effect_text": "야생 포켓몬과 배틀을 그만둔다. 마지막에 들어갔던 포켓몬센터가 있는 도시에도 갈 수 있다."
+  },
+  {
+    "id": 101,
+    "name": "나이트헤드",
+    "type_id": 8,
+    "power": null,
+    "accuracy": 100,
+    "effect_text": "무시무시한 환상을 보게 해서 자신의 레벨과 똑같은 만큼의 데미지를 상대에게 준다."
+  },
+  {
+    "id": 102,
+    "name": "흉내내기",
+    "type_id": 1,
+    "power": null,
+    "accuracy": null,
+    "effect_text": "상대가 마지막에 사용한 기술을 배틀을 하는 동안 자신의 기술로 만들 수 있다."
+  },
+  {
+    "id": 103,
+    "name": "싫은소리",
+    "type_id": 1,
+    "power": null,
+    "accuracy": 85,
+    "effect_text": "그만 귀를 막아버리고 싶은 싫은 소리를 내어 상대의 방어를 크게 떨어뜨린다."
+  },
+  {
+    "id": 104,
+    "name": "그림자분신",
+    "type_id": 1,
+    "power": null,
+    "accuracy": null,
+    "effect_text": "재빠른 움직임으로 분신을 만들어 상대를 혼란시켜 회피율을 올린다."
+  },
+  {
+    "id": 105,
+    "name": "HP회복",
+    "type_id": 1,
+    "power": null,
+    "accuracy": null,
+    "effect_text": "세포를 재생시켜 자신의 최대 HP의 절반만큼 HP를 회복한다."
+  },
+  {
+    "id": 106,
+    "name": "단단해지기",
+    "type_id": 1,
+    "power": null,
+    "accuracy": null,
+    "effect_text": "전신에 힘을 담아 몸을 단단하게 해서 자신의 방어를 올린다."
+  },
+  {
+    "id": 107,
+    "name": "작아지기",
+    "type_id": 1,
+    "power": null,
+    "accuracy": null,
+    "effect_text": "몸을 축소하여 작게 보임으로써 자신의 회피율을 크게 올린다."
+  },
+  {
+    "id": 108,
+    "name": "연막",
+    "type_id": 1,
+    "power": null,
+    "accuracy": 100,
+    "effect_text": "연기나 먹물을 내뿜어 상대의 명중률을 떨어뜨린다."
+  },
+  {
+    "id": 109,
+    "name": "이상한빛",
+    "type_id": 8,
+    "power": null,
+    "accuracy": 100,
+    "effect_text": "이상한 빛을 상대에게 비춰 당황하게 한다. 상대를 혼란시킨다."
+  },
+  {
+    "id": 110,
+    "name": "껍질에숨기",
+    "type_id": 11,
+    "power": null,
+    "accuracy": null,
+    "effect_text": "껍질에 숨어 몸을 보호하여 자신의 방어를 올린다."
+  },
+  {
+    "id": 111,
+    "name": "웅크리기",
+    "type_id": 1,
+    "power": null,
+    "accuracy": null,
+    "effect_text": "몸을 둥글게 웅크려서 자신의 방어를 올린다."
+  },
+  {
+    "id": 112,
+    "name": "배리어",
+    "type_id": 14,
+    "power": null,
+    "accuracy": null,
+    "effect_text": "튼튼한 장막을 만들어 자신의 방어를 크게 올린다."
+  },
+  {
+    "id": 113,
+    "name": "빛의장막",
+    "type_id": 14,
+    "power": null,
+    "accuracy": null,
+    "effect_text": "5턴 동안 이상한 장막으로 상대로부터 받는 특수공격의 데미지를 약하게 한다."
+  },
+  {
+    "id": 114,
+    "name": "흑안개",
+    "type_id": 15,
+    "power": null,
+    "accuracy": null,
+    "effect_text": "흑안개를 뿜어 배틀에 참가 중인 포켓몬 전원의 능력 변화를 원래대로 돌린다."
+  },
+  {
+    "id": 115,
+    "name": "리플렉터",
+    "type_id": 14,
+    "power": null,
+    "accuracy": null,
+    "effect_text": "5턴 동안 이상한 장막으로 상대로부터 받는 물리공격의 데미지를 약하게 한다."
+  },
+  {
+    "id": 116,
+    "name": "기충전",
+    "type_id": 1,
+    "power": null,
+    "accuracy": null,
+    "effect_text": "깊게 숨을 들이마셔 기합을 넣는다. 자신의 공격이 급소에 맞기 쉬워진다."
+  },
+  {
+    "id": 117,
+    "name": "참기",
+    "type_id": 1,
+    "power": null,
+    "accuracy": null,
+    "effect_text": "2턴 동안 공격을 견뎌 입은 데미지를 2배로 만들어 상대에게 돌려준다."
+  },
+  {
+    "id": 118,
+    "name": "손가락흔들기",
+    "type_id": 1,
+    "power": null,
+    "accuracy": null,
+    "effect_text": "손가락을 흔들어 자신의 뇌를 자극해서 모든 기술 중 어느 하나를 날린다."
+  },
+  {
+    "id": 119,
+    "name": "따라하기",
+    "type_id": 3,
+    "power": null,
+    "accuracy": null,
+    "effect_text": "상대가 사용한 기술을 흉내 내어 자신도 똑같은 기술을 쓴다."
+  },
+  {
+    "id": 120,
+    "name": "자폭",
+    "type_id": 1,
+    "power": 200,
+    "accuracy": 100,
+    "effect_text": "폭발을 일으켜서 자신의 주위에 있는 포켓몬을 공격한다. 쓰고 나서 기절하게 된다."
+  },
+  {
+    "id": 121,
+    "name": "알폭탄",
+    "type_id": 1,
+    "power": 100,
+    "accuracy": 75,
+    "effect_text": "큰 알을 온 힘을 다해 상대에게 내던져서 공격한다."
+  },
+  {
+    "id": 122,
+    "name": "핥기",
+    "type_id": 8,
+    "power": 30,
+    "accuracy": 100,
+    "effect_text": "긴 혀로 상대를 핥아서 공격한다. 마비 상태로 만들 때가 있다."
+  },
+  {
+    "id": 123,
+    "name": "스모그",
+    "type_id": 4,
+    "power": 30,
+    "accuracy": 70,
+    "effect_text": "더러운 가스를 상대에게 내뿜어 공격한다. 독 상태로 만들 때가 있다."
+  },
+  {
+    "id": 124,
+    "name": "오물공격",
+    "type_id": 4,
+    "power": 65,
+    "accuracy": 100,
+    "effect_text": "더러운 오물을 상대에게 내던져서 공격한다. 독 상태로 만들 때가 있다."
+  },
+  {
+    "id": 125,
+    "name": "뼈다귀치기",
+    "type_id": 5,
+    "power": 65,
+    "accuracy": 85,
+    "effect_text": "손에 들고 있는 뼈로 상대를 세게 때려서 공격한다. 상대를 풀죽게 만들 때가 있다."
+  },
+  {
+    "id": 126,
+    "name": "불대문자",
+    "type_id": 10,
+    "power": 110,
+    "accuracy": 85,
+    "effect_text": "큰 대자의 불꽃으로 상대를 불태운다. 화상 상태로 만들 때가 있다."
+  },
+  {
+    "id": 127,
+    "name": "폭포오르기",
+    "type_id": 11,
+    "power": 80,
+    "accuracy": 100,
+    "effect_text": "굉장한 기세로 상대에게 돌진한다. 상대를 풀죽게 만들 때가 있다. 폭포도 거슬러 올라갈 수 있다."
+  },
+  {
+    "id": 128,
+    "name": "껍질끼우기",
+    "type_id": 11,
+    "power": 35,
+    "accuracy": 85,
+    "effect_text": "매우 튼튼하고 두꺼운 껍질에 4-5턴 동안 상대를 끼워서 공격한다."
+  },
+  {
+    "id": 129,
+    "name": "스피드스타",
+    "type_id": 1,
+    "power": 60,
+    "accuracy": null,
+    "effect_text": "별 모양의 빛을 발사해서 상대를 공격한다. 공격은 반드시 명중한다."
+  },
+  {
+    "id": 130,
+    "name": "로케트박치기",
+    "type_id": 1,
+    "power": 130,
+    "accuracy": 100,
+    "effect_text": "1턴째에 머리를 움츠려 방어를 올린다. 2턴째에 상대를 공격한다."
+  },
+  {
+    "id": 131,
+    "name": "가시대포",
+    "type_id": 1,
+    "power": 20,
+    "accuracy": 100,
+    "effect_text": "날카로운 침을 상대에게 발사해서 공격한다. 2-5회 동안 연속으로 쓴다."
+  },
+  {
+    "id": 132,
+    "name": "휘감기",
+    "type_id": 1,
+    "power": 10,
+    "accuracy": 100,
+    "effect_text": "촉수나 덩굴 등을 휘감아서 공격한다. 상대의 스피드를 떨어뜨릴 때가 있다."
+  },
+  {
+    "id": 133,
+    "name": "망각술",
+    "type_id": 14,
+    "power": null,
+    "accuracy": null,
+    "effect_text": "머리를 비워서 순간적으로 무언가를 잊어버림으로써 자신의 특수방어를 크게 올린다."
+  },
+  {
+    "id": 134,
+    "name": "숟가락휘기",
+    "type_id": 14,
+    "power": null,
+    "accuracy": 80,
+    "effect_text": "숟가락을 휘어서 주의를 끌어 상대의 명중률을 낮춘다."
+  },
+  {
+    "id": 135,
+    "name": "알낳기",
+    "type_id": 1,
+    "power": null,
+    "accuracy": null,
+    "effect_text": "자신의 최대 HP 절반을 회복한다. 동료에게 HP를 나누어 줄 수도 있다."
+  },
+  {
+    "id": 136,
+    "name": "무릎차기",
+    "type_id": 2,
+    "power": 130,
+    "accuracy": 90,
+    "effect_text": "점프해서 무릎차기로 상대를 공격한다. 빗나가면 자신이 데미지를 입는다."
+  },
+  {
+    "id": 137,
+    "name": "뱀눈초리",
+    "type_id": 1,
+    "power": null,
+    "accuracy": 100,
+    "effect_text": "배의 무늬로 겁을 주어 상대를 마비 상태로 만든다."
+  },
+  {
+    "id": 138,
+    "name": "꿈먹기",
+    "type_id": 14,
+    "power": 100,
+    "accuracy": 100,
+    "effect_text": "잠자고 있는 상대의 꿈을 먹어 공격한다. 데미지의 절반을 HP로 회복한다."
+  },
+  {
+    "id": 139,
+    "name": "독가스",
+    "type_id": 4,
+    "power": null,
+    "accuracy": 90,
+    "effect_text": "독가스를 상대의 얼굴에 내뿜어 독 상태로 만든다."
+  },
+  {
+    "id": 140,
+    "name": "구슬던지기",
+    "type_id": 1,
+    "power": 15,
+    "accuracy": 85,
+    "effect_text": "둥근 것을 상대에게 내던져서 공격한다. 2-5회 동안 연속으로 쓴다."
+  },
+  {
+    "id": 141,
+    "name": "흡혈",
+    "type_id": 7,
+    "power": 80,
+    "accuracy": 100,
+    "effect_text": "피를 빨아서 상대를 공격한다. 준 데미지의 절반을 HP로 회복한다."
+  },
+  {
+    "id": 142,
+    "name": "악마의키스",
+    "type_id": 1,
+    "power": null,
+    "accuracy": 75,
+    "effect_text": "무서운 얼굴로 키스한다. 상대를 잠듦 상태로 만든다."
+  },
+  {
+    "id": 143,
+    "name": "불새",
+    "type_id": 3,
+    "power": 140,
+    "accuracy": 90,
+    "effect_text": "2턴째에 상대를 공격한다. 가끔 풀죽게 만든다. 급소에도 맞기 쉽다."
+  },
+  {
+    "id": 144,
+    "name": "변신",
+    "type_id": 1,
+    "power": null,
+    "accuracy": null,
+    "effect_text": "상대 포켓몬으로 변신하여 상대와 완전히 똑같은 기술을 사용할 수 있다."
+  },
+  {
+    "id": 145,
+    "name": "거품",
+    "type_id": 11,
+    "power": 40,
+    "accuracy": 100,
+    "effect_text": "매우 많은 거품을 상대에게 내뿜어 공격한다. 상대의 스피드를 떨어뜨릴 때가 있다."
+  },
+  {
+    "id": 146,
+    "name": "잼잼펀치",
+    "type_id": 1,
+    "power": 70,
+    "accuracy": 100,
+    "effect_text": "리드미컬한 펀치를 날려 상대를 공격한다. 혼란시킬 때가 있다."
+  },
+  {
+    "id": 147,
+    "name": "버섯포자",
+    "type_id": 12,
+    "power": null,
+    "accuracy": 100,
+    "effect_text": "최면 효과가 있는 포자를 훌훌 흩뿌려서 상대를 잠듦 상태로 만든다."
+  },
+  {
+    "id": 148,
+    "name": "플래시",
+    "type_id": 1,
+    "power": null,
+    "accuracy": 100,
+    "effect_text": "눈이 부신 빛으로 상대의 명중률을 떨어뜨린다."
+  },
+  {
+    "id": 149,
+    "name": "사이코웨이브",
+    "type_id": 14,
+    "power": null,
+    "accuracy": 100,
+    "effect_text": "이상한 염력파를 상대에게 발사하여 공격한다. 사용할 때마다 데미지가 바뀐다."
+  },
+  {
+    "id": 150,
+    "name": "튀어오르기",
+    "type_id": 1,
+    "power": null,
+    "accuracy": null,
+    "effect_text": "공격도 하지 않고 팔딱팔딱 튈 뿐 아무 일도 일어나지 않는다..."
+  },
+  {
+    "id": 151,
+    "name": "녹기",
+    "type_id": 4,
+    "power": null,
+    "accuracy": null,
+    "effect_text": "세포의 변화로 액체가 되어 자신의 방어를 크게 올린다."
+  },
+  {
+    "id": 152,
+    "name": "찝게햄머",
+    "type_id": 11,
+    "power": 100,
+    "accuracy": 90,
+    "effect_text": "큰 집게를 상대에게 내리쳐서 공격한다. 급소에 맞기 쉽다."
+  },
+  {
+    "id": 153,
+    "name": "대폭발",
+    "type_id": 1,
+    "power": 250,
+    "accuracy": 100,
+    "effect_text": "큰 폭발로 자신의 주위에 있는 포켓몬을 공격한다. 쓰고 나서는 기절한다."
+  },
+  {
+    "id": 154,
+    "name": "마구할퀴기",
+    "type_id": 1,
+    "power": 18,
+    "accuracy": 80,
+    "effect_text": "손톱이나 낫 등으로 상대를 할퀴어서 공격한다. 2-5회 동안 연속으로 쓴다."
+  },
+  {
+    "id": 155,
+    "name": "뼈다귀부메랑",
+    "type_id": 5,
+    "power": 50,
+    "accuracy": 90,
+    "effect_text": "손에 들고 있는 뼈를 상대에게 날려서 날아갈 때와 돌아올 때 2회 연속 데미지를 준다."
+  },
+  {
+    "id": 156,
+    "name": "잠자기",
+    "type_id": 14,
+    "power": null,
+    "accuracy": null,
+    "effect_text": "2턴 동안 계속 잠잔다. 자신의 HP와 상태 이상을 모두 회복한다."
+  },
+  {
+    "id": 157,
+    "name": "스톤샤워",
+    "type_id": 6,
+    "power": 75,
+    "accuracy": 90,
+    "effect_text": "큰 바위를 세차게 부딪쳐서 공격한다. 상대를 풀죽게 만들 때가 있다."
+  },
+  {
+    "id": 158,
+    "name": "필살앞니",
+    "type_id": 1,
+    "power": 80,
+    "accuracy": 90,
+    "effect_text": "날카로운 앞니로 강하게 물어서 공격한다. 상대를 풀죽게 만들 때가 있다."
+  },
+  {
+    "id": 159,
+    "name": "각지기",
+    "type_id": 1,
+    "power": null,
+    "accuracy": null,
+    "effect_text": "몸의 각을 늘려서 더욱 각지게 하여 자신의 공격을 올린다."
+  },
+  {
+    "id": 160,
+    "name": "텍스처",
+    "type_id": 1,
+    "power": null,
+    "accuracy": null,
+    "effect_text": "자신의 타입을 배운 기술 중 가장 위에 있는 기술과 같은 타입으로 바꾼다."
+  },
+  {
+    "id": 161,
+    "name": "트라이어택",
+    "type_id": 1,
+    "power": 80,
+    "accuracy": 100,
+    "effect_text": "3개의 광선으로 공격한다. 마비, 화상 또는 얼음 상태 중 어느 하나로 만들 때가 있다."
+  },
+  {
+    "id": 162,
+    "name": "분노의앞니",
+    "type_id": 1,
+    "power": null,
+    "accuracy": 90,
+    "effect_text": "날카로운 앞니로 강하게 물어서 공격한다. 상대의 HP는 절반이 된다."
+  },
+  {
+    "id": 163,
+    "name": "베어가르기",
+    "type_id": 1,
+    "power": 70,
+    "accuracy": 100,
+    "effect_text": "발톱이나 낫 등으로 상대를 베어 갈라서 공격한다. 급소에 맞기 쉽다."
+  },
+  {
+    "id": 164,
+    "name": "대타출동",
+    "type_id": 1,
+    "power": null,
+    "accuracy": null,
+    "effect_text": "자신의 HP를 조금 깎아서 분신을 만든다. 분신은 자신의 대타가 된다."
+  },
+  {
+    "id": 165,
+    "name": "발버둥",
+    "type_id": 1,
+    "power": 50,
+    "accuracy": null,
+    "effect_text": "자신의 PP가 떨어지면 발버둥 쳐 상대를 공격한다. 자신도 조금 데미지를 입는다."
+  }
+]

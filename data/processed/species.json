@@ -1,0 +1,908 @@
+[
+  {
+    "id": 1,
+    "pokemon_id": 1,
+    "generation": 1,
+    "capture_rate": 45
+  },
+  {
+    "id": 2,
+    "pokemon_id": 2,
+    "generation": 1,
+    "capture_rate": 45
+  },
+  {
+    "id": 3,
+    "pokemon_id": 3,
+    "generation": 1,
+    "capture_rate": 45
+  },
+  {
+    "id": 4,
+    "pokemon_id": 4,
+    "generation": 1,
+    "capture_rate": 45
+  },
+  {
+    "id": 5,
+    "pokemon_id": 5,
+    "generation": 1,
+    "capture_rate": 45
+  },
+  {
+    "id": 6,
+    "pokemon_id": 6,
+    "generation": 1,
+    "capture_rate": 45
+  },
+  {
+    "id": 7,
+    "pokemon_id": 7,
+    "generation": 1,
+    "capture_rate": 45
+  },
+  {
+    "id": 8,
+    "pokemon_id": 8,
+    "generation": 1,
+    "capture_rate": 45
+  },
+  {
+    "id": 9,
+    "pokemon_id": 9,
+    "generation": 1,
+    "capture_rate": 45
+  },
+  {
+    "id": 10,
+    "pokemon_id": 10,
+    "generation": 1,
+    "capture_rate": 255
+  },
+  {
+    "id": 11,
+    "pokemon_id": 11,
+    "generation": 1,
+    "capture_rate": 120
+  },
+  {
+    "id": 12,
+    "pokemon_id": 12,
+    "generation": 1,
+    "capture_rate": 45
+  },
+  {
+    "id": 13,
+    "pokemon_id": 13,
+    "generation": 1,
+    "capture_rate": 255
+  },
+  {
+    "id": 14,
+    "pokemon_id": 14,
+    "generation": 1,
+    "capture_rate": 120
+  },
+  {
+    "id": 15,
+    "pokemon_id": 15,
+    "generation": 1,
+    "capture_rate": 45
+  },
+  {
+    "id": 16,
+    "pokemon_id": 16,
+    "generation": 1,
+    "capture_rate": 255
+  },
+  {
+    "id": 17,
+    "pokemon_id": 17,
+    "generation": 1,
+    "capture_rate": 120
+  },
+  {
+    "id": 18,
+    "pokemon_id": 18,
+    "generation": 1,
+    "capture_rate": 45
+  },
+  {
+    "id": 19,
+    "pokemon_id": 19,
+    "generation": 1,
+    "capture_rate": 255
+  },
+  {
+    "id": 20,
+    "pokemon_id": 20,
+    "generation": 1,
+    "capture_rate": 127
+  },
+  {
+    "id": 21,
+    "pokemon_id": 21,
+    "generation": 1,
+    "capture_rate": 255
+  },
+  {
+    "id": 22,
+    "pokemon_id": 22,
+    "generation": 1,
+    "capture_rate": 90
+  },
+  {
+    "id": 23,
+    "pokemon_id": 23,
+    "generation": 1,
+    "capture_rate": 255
+  },
+  {
+    "id": 24,
+    "pokemon_id": 24,
+    "generation": 1,
+    "capture_rate": 90
+  },
+  {
+    "id": 25,
+    "pokemon_id": 25,
+    "generation": 1,
+    "capture_rate": 190
+  },
+  {
+    "id": 26,
+    "pokemon_id": 26,
+    "generation": 1,
+    "capture_rate": 75
+  },
+  {
+    "id": 27,
+    "pokemon_id": 27,
+    "generation": 1,
+    "capture_rate": 255
+  },
+  {
+    "id": 28,
+    "pokemon_id": 28,
+    "generation": 1,
+    "capture_rate": 90
+  },
+  {
+    "id": 29,
+    "pokemon_id": 29,
+    "generation": 1,
+    "capture_rate": 235
+  },
+  {
+    "id": 30,
+    "pokemon_id": 30,
+    "generation": 1,
+    "capture_rate": 120
+  },
+  {
+    "id": 31,
+    "pokemon_id": 31,
+    "generation": 1,
+    "capture_rate": 45
+  },
+  {
+    "id": 32,
+    "pokemon_id": 32,
+    "generation": 1,
+    "capture_rate": 235
+  },
+  {
+    "id": 33,
+    "pokemon_id": 33,
+    "generation": 1,
+    "capture_rate": 120
+  },
+  {
+    "id": 34,
+    "pokemon_id": 34,
+    "generation": 1,
+    "capture_rate": 45
+  },
+  {
+    "id": 35,
+    "pokemon_id": 35,
+    "generation": 1,
+    "capture_rate": 150
+  },
+  {
+    "id": 36,
+    "pokemon_id": 36,
+    "generation": 1,
+    "capture_rate": 25
+  },
+  {
+    "id": 37,
+    "pokemon_id": 37,
+    "generation": 1,
+    "capture_rate": 190
+  },
+  {
+    "id": 38,
+    "pokemon_id": 38,
+    "generation": 1,
+    "capture_rate": 75
+  },
+  {
+    "id": 39,
+    "pokemon_id": 39,
+    "generation": 1,
+    "capture_rate": 170
+  },
+  {
+    "id": 40,
+    "pokemon_id": 40,
+    "generation": 1,
+    "capture_rate": 50
+  },
+  {
+    "id": 41,
+    "pokemon_id": 41,
+    "generation": 1,
+    "capture_rate": 255
+  },
+  {
+    "id": 42,
+    "pokemon_id": 42,
+    "generation": 1,
+    "capture_rate": 90
+  },
+  {
+    "id": 43,
+    "pokemon_id": 43,
+    "generation": 1,
+    "capture_rate": 255
+  },
+  {
+    "id": 44,
+    "pokemon_id": 44,
+    "generation": 1,
+    "capture_rate": 120
+  },
+  {
+    "id": 45,
+    "pokemon_id": 45,
+    "generation": 1,
+    "capture_rate": 45
+  },
+  {
+    "id": 46,
+    "pokemon_id": 46,
+    "generation": 1,
+    "capture_rate": 190
+  },
+  {
+    "id": 47,
+    "pokemon_id": 47,
+    "generation": 1,
+    "capture_rate": 75
+  },
+  {
+    "id": 48,
+    "pokemon_id": 48,
+    "generation": 1,
+    "capture_rate": 190
+  },
+  {
+    "id": 49,
+    "pokemon_id": 49,
+    "generation": 1,
+    "capture_rate": 75
+  },
+  {
+    "id": 50,
+    "pokemon_id": 50,
+    "generation": 1,
+    "capture_rate": 255
+  },
+  {
+    "id": 51,
+    "pokemon_id": 51,
+    "generation": 1,
+    "capture_rate": 50
+  },
+  {
+    "id": 52,
+    "pokemon_id": 52,
+    "generation": 1,
+    "capture_rate": 255
+  },
+  {
+    "id": 53,
+    "pokemon_id": 53,
+    "generation": 1,
+    "capture_rate": 90
+  },
+  {
+    "id": 54,
+    "pokemon_id": 54,
+    "generation": 1,
+    "capture_rate": 190
+  },
+  {
+    "id": 55,
+    "pokemon_id": 55,
+    "generation": 1,
+    "capture_rate": 75
+  },
+  {
+    "id": 56,
+    "pokemon_id": 56,
+    "generation": 1,
+    "capture_rate": 190
+  },
+  {
+    "id": 57,
+    "pokemon_id": 57,
+    "generation": 1,
+    "capture_rate": 75
+  },
+  {
+    "id": 58,
+    "pokemon_id": 58,
+    "generation": 1,
+    "capture_rate": 190
+  },
+  {
+    "id": 59,
+    "pokemon_id": 59,
+    "generation": 1,
+    "capture_rate": 75
+  },
+  {
+    "id": 60,
+    "pokemon_id": 60,
+    "generation": 1,
+    "capture_rate": 255
+  },
+  {
+    "id": 61,
+    "pokemon_id": 61,
+    "generation": 1,
+    "capture_rate": 120
+  },
+  {
+    "id": 62,
+    "pokemon_id": 62,
+    "generation": 1,
+    "capture_rate": 45
+  },
+  {
+    "id": 63,
+    "pokemon_id": 63,
+    "generation": 1,
+    "capture_rate": 200
+  },
+  {
+    "id": 64,
+    "pokemon_id": 64,
+    "generation": 1,
+    "capture_rate": 100
+  },
+  {
+    "id": 65,
+    "pokemon_id": 65,
+    "generation": 1,
+    "capture_rate": 50
+  },
+  {
+    "id": 66,
+    "pokemon_id": 66,
+    "generation": 1,
+    "capture_rate": 180
+  },
+  {
+    "id": 67,
+    "pokemon_id": 67,
+    "generation": 1,
+    "capture_rate": 90
+  },
+  {
+    "id": 68,
+    "pokemon_id": 68,
+    "generation": 1,
+    "capture_rate": 45
+  },
+  {
+    "id": 69,
+    "pokemon_id": 69,
+    "generation": 1,
+    "capture_rate": 255
+  },
+  {
+    "id": 70,
+    "pokemon_id": 70,
+    "generation": 1,
+    "capture_rate": 120
+  },
+  {
+    "id": 71,
+    "pokemon_id": 71,
+    "generation": 1,
+    "capture_rate": 45
+  },
+  {
+    "id": 72,
+    "pokemon_id": 72,
+    "generation": 1,
+    "capture_rate": 190
+  },
+  {
+    "id": 73,
+    "pokemon_id": 73,
+    "generation": 1,
+    "capture_rate": 60
+  },
+  {
+    "id": 74,
+    "pokemon_id": 74,
+    "generation": 1,
+    "capture_rate": 255
+  },
+  {
+    "id": 75,
+    "pokemon_id": 75,
+    "generation": 1,
+    "capture_rate": 120
+  },
+  {
+    "id": 76,
+    "pokemon_id": 76,
+    "generation": 1,
+    "capture_rate": 45
+  },
+  {
+    "id": 77,
+    "pokemon_id": 77,
+    "generation": 1,
+    "capture_rate": 190
+  },
+  {
+    "id": 78,
+    "pokemon_id": 78,
+    "generation": 1,
+    "capture_rate": 60
+  },
+  {
+    "id": 79,
+    "pokemon_id": 79,
+    "generation": 1,
+    "capture_rate": 190
+  },
+  {
+    "id": 80,
+    "pokemon_id": 80,
+    "generation": 1,
+    "capture_rate": 75
+  },
+  {
+    "id": 81,
+    "pokemon_id": 81,
+    "generation": 1,
+    "capture_rate": 190
+  },
+  {
+    "id": 82,
+    "pokemon_id": 82,
+    "generation": 1,
+    "capture_rate": 60
+  },
+  {
+    "id": 83,
+    "pokemon_id": 83,
+    "generation": 1,
+    "capture_rate": 45
+  },
+  {
+    "id": 84,
+    "pokemon_id": 84,
+    "generation": 1,
+    "capture_rate": 190
+  },
+  {
+    "id": 85,
+    "pokemon_id": 85,
+    "generation": 1,
+    "capture_rate": 45
+  },
+  {
+    "id": 86,
+    "pokemon_id": 86,
+    "generation": 1,
+    "capture_rate": 190
+  },
+  {
+    "id": 87,
+    "pokemon_id": 87,
+    "generation": 1,
+    "capture_rate": 75
+  },
+  {
+    "id": 88,
+    "pokemon_id": 88,
+    "generation": 1,
+    "capture_rate": 190
+  },
+  {
+    "id": 89,
+    "pokemon_id": 89,
+    "generation": 1,
+    "capture_rate": 75
+  },
+  {
+    "id": 90,
+    "pokemon_id": 90,
+    "generation": 1,
+    "capture_rate": 190
+  },
+  {
+    "id": 91,
+    "pokemon_id": 91,
+    "generation": 1,
+    "capture_rate": 60
+  },
+  {
+    "id": 92,
+    "pokemon_id": 92,
+    "generation": 1,
+    "capture_rate": 190
+  },
+  {
+    "id": 93,
+    "pokemon_id": 93,
+    "generation": 1,
+    "capture_rate": 90
+  },
+  {
+    "id": 94,
+    "pokemon_id": 94,
+    "generation": 1,
+    "capture_rate": 45
+  },
+  {
+    "id": 95,
+    "pokemon_id": 95,
+    "generation": 1,
+    "capture_rate": 45
+  },
+  {
+    "id": 96,
+    "pokemon_id": 96,
+    "generation": 1,
+    "capture_rate": 190
+  },
+  {
+    "id": 97,
+    "pokemon_id": 97,
+    "generation": 1,
+    "capture_rate": 75
+  },
+  {
+    "id": 98,
+    "pokemon_id": 98,
+    "generation": 1,
+    "capture_rate": 225
+  },
+  {
+    "id": 99,
+    "pokemon_id": 99,
+    "generation": 1,
+    "capture_rate": 60
+  },
+  {
+    "id": 100,
+    "pokemon_id": 100,
+    "generation": 1,
+    "capture_rate": 190
+  },
+  {
+    "id": 101,
+    "pokemon_id": 101,
+    "generation": 1,
+    "capture_rate": 60
+  },
+  {
+    "id": 102,
+    "pokemon_id": 102,
+    "generation": 1,
+    "capture_rate": 90
+  },
+  {
+    "id": 103,
+    "pokemon_id": 103,
+    "generation": 1,
+    "capture_rate": 45
+  },
+  {
+    "id": 104,
+    "pokemon_id": 104,
+    "generation": 1,
+    "capture_rate": 190
+  },
+  {
+    "id": 105,
+    "pokemon_id": 105,
+    "generation": 1,
+    "capture_rate": 75
+  },
+  {
+    "id": 106,
+    "pokemon_id": 106,
+    "generation": 1,
+    "capture_rate": 45
+  },
+  {
+    "id": 107,
+    "pokemon_id": 107,
+    "generation": 1,
+    "capture_rate": 45
+  },
+  {
+    "id": 108,
+    "pokemon_id": 108,
+    "generation": 1,
+    "capture_rate": 45
+  },
+  {
+    "id": 109,
+    "pokemon_id": 109,
+    "generation": 1,
+    "capture_rate": 190
+  },
+  {
+    "id": 110,
+    "pokemon_id": 110,
+    "generation": 1,
+    "capture_rate": 60
+  },
+  {
+    "id": 111,
+    "pokemon_id": 111,
+    "generation": 1,
+    "capture_rate": 120
+  },
+  {
+    "id": 112,
+    "pokemon_id": 112,
+    "generation": 1,
+    "capture_rate": 60
+  },
+  {
+    "id": 113,
+    "pokemon_id": 113,
+    "generation": 1,
+    "capture_rate": 30
+  },
+  {
+    "id": 114,
+    "pokemon_id": 114,
+    "generation": 1,
+    "capture_rate": 45
+  },
+  {
+    "id": 115,
+    "pokemon_id": 115,
+    "generation": 1,
+    "capture_rate": 45
+  },
+  {
+    "id": 116,
+    "pokemon_id": 116,
+    "generation": 1,
+    "capture_rate": 225
+  },
+  {
+    "id": 117,
+    "pokemon_id": 117,
+    "generation": 1,
+    "capture_rate": 75
+  },
+  {
+    "id": 118,
+    "pokemon_id": 118,
+    "generation": 1,
+    "capture_rate": 225
+  },
+  {
+    "id": 119,
+    "pokemon_id": 119,
+    "generation": 1,
+    "capture_rate": 60
+  },
+  {
+    "id": 120,
+    "pokemon_id": 120,
+    "generation": 1,
+    "capture_rate": 225
+  },
+  {
+    "id": 121,
+    "pokemon_id": 121,
+    "generation": 1,
+    "capture_rate": 60
+  },
+  {
+    "id": 122,
+    "pokemon_id": 122,
+    "generation": 1,
+    "capture_rate": 45
+  },
+  {
+    "id": 123,
+    "pokemon_id": 123,
+    "generation": 1,
+    "capture_rate": 45
+  },
+  {
+    "id": 124,
+    "pokemon_id": 124,
+    "generation": 1,
+    "capture_rate": 45
+  },
+  {
+    "id": 125,
+    "pokemon_id": 125,
+    "generation": 1,
+    "capture_rate": 45
+  },
+  {
+    "id": 126,
+    "pokemon_id": 126,
+    "generation": 1,
+    "capture_rate": 45
+  },
+  {
+    "id": 127,
+    "pokemon_id": 127,
+    "generation": 1,
+    "capture_rate": 45
+  },
+  {
+    "id": 128,
+    "pokemon_id": 128,
+    "generation": 1,
+    "capture_rate": 45
+  },
+  {
+    "id": 129,
+    "pokemon_id": 129,
+    "generation": 1,
+    "capture_rate": 255
+  },
+  {
+    "id": 130,
+    "pokemon_id": 130,
+    "generation": 1,
+    "capture_rate": 45
+  },
+  {
+    "id": 131,
+    "pokemon_id": 131,
+    "generation": 1,
+    "capture_rate": 45
+  },
+  {
+    "id": 132,
+    "pokemon_id": 132,
+    "generation": 1,
+    "capture_rate": 35
+  },
+  {
+    "id": 133,
+    "pokemon_id": 133,
+    "generation": 1,
+    "capture_rate": 45
+  },
+  {
+    "id": 134,
+    "pokemon_id": 134,
+    "generation": 1,
+    "capture_rate": 45
+  },
+  {
+    "id": 135,
+    "pokemon_id": 135,
+    "generation": 1,
+    "capture_rate": 45
+  },
+  {
+    "id": 136,
+    "pokemon_id": 136,
+    "generation": 1,
+    "capture_rate": 45
+  },
+  {
+    "id": 137,
+    "pokemon_id": 137,
+    "generation": 1,
+    "capture_rate": 45
+  },
+  {
+    "id": 138,
+    "pokemon_id": 138,
+    "generation": 1,
+    "capture_rate": 45
+  },
+  {
+    "id": 139,
+    "pokemon_id": 139,
+    "generation": 1,
+    "capture_rate": 45
+  },
+  {
+    "id": 140,
+    "pokemon_id": 140,
+    "generation": 1,
+    "capture_rate": 45
+  },
+  {
+    "id": 141,
+    "pokemon_id": 141,
+    "generation": 1,
+    "capture_rate": 45
+  },
+  {
+    "id": 142,
+    "pokemon_id": 142,
+    "generation": 1,
+    "capture_rate": 45
+  },
+  {
+    "id": 143,
+    "pokemon_id": 143,
+    "generation": 1,
+    "capture_rate": 25
+  },
+  {
+    "id": 144,
+    "pokemon_id": 144,
+    "generation": 1,
+    "capture_rate": 3
+  },
+  {
+    "id": 145,
+    "pokemon_id": 145,
+    "generation": 1,
+    "capture_rate": 3
+  },
+  {
+    "id": 146,
+    "pokemon_id": 146,
+    "generation": 1,
+    "capture_rate": 3
+  },
+  {
+    "id": 147,
+    "pokemon_id": 147,
+    "generation": 1,
+    "capture_rate": 45
+  },
+  {
+    "id": 148,
+    "pokemon_id": 148,
+    "generation": 1,
+    "capture_rate": 45
+  },
+  {
+    "id": 149,
+    "pokemon_id": 149,
+    "generation": 1,
+    "capture_rate": 45
+  },
+  {
+    "id": 150,
+    "pokemon_id": 150,
+    "generation": 1,
+    "capture_rate": 3
+  },
+  {
+    "id": 151,
+    "pokemon_id": 151,
+    "generation": 1,
+    "capture_rate": 45
+  }
+]

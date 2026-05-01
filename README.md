@@ -1,64 +1,91 @@
-# 📑 Pokemon_DB_Collection
+# 📑 Pokemon RAG Database Pipeline
 
-> **LLM 및 RAG 시스템 구축을 위한 하이브리드 포켓몬 데이터 수집 엔진**
+> **LLM 및 RAG 시스템 구축을 위한 하이브리드 포켓몬 데이터 파이프라인 (1세대 기준)**
 
-이 프로젝트는 포켓몬 관련 정형 데이터(API)와 비정형 데이터(Web)를 체계적으로 수집하여, 차세대 질의응답 시스템의 기반이 되는 지식 베이스를 구축하는 것을 목표로 합니다.
-
----
-
-## 🎯 수집 전략 (Collection Strategy)
-
-데이터의 신뢰성과 맥락의 풍부함을 동시에 잡기 위해 **3단계 하이브리드 수집 전략**을 채택합니다.
-
-### Phase 1. 정형 데이터 수집 (PokeAPI 기반)
-* **목적:** 수치 데이터의 무결성 확보 (할루시네이션 방지용 Fact 데이터)
-* **대상:** 종족값, 타입 상성, 진화 트리, 기술(Move) 정보
-* **방식:** REST API를 통한 JSON 데이터 파싱 및 RDBMS 저장
-
-### Phase 2. 비정형 데이터 수집 (Web Scraping 기반)
-* **목적:** LLM의 풍부한 답변 생성을 위한 맥락 정보 확보
-* **대상:** 포켓몬 위키(Lore), 나무위키(배틀 팁, 유저 평가), 공식 도감 설명
-* **방식:** BeautifulSoup/Scrapy를 활용한 텍스트 추출 및 정규화
-
-### Phase 3. RAG 최적화 전처리 (Processing)
-* **목적:** 벡터 검색 및 SQL 연동 효율화
-* **내용:** 데이터 청킹(Chunking), 메타데이터 매핑, 임베딩(Embedding) 생성
+이 프로젝트는 PokeAPI를 활용하여 포켓몬의 정형 데이터(종족값, 타입, 진화, 기술, 도구)와 비정형 데이터(도감 설명)를 수집, 정제하여 **PostgreSQL (pgvector)** 기반의 지식 베이스를 구축하는 파이프라인입니다.
 
 ---
 
-## 📊 수집 대상 데이터 상세 (Data Scope)
+## 🏗 아키텍처 및 스키마 구조
 
-| 카테고리 | 상세 데이터 항목 | 출처 | 활용 방안 |
-| :--- | :--- | :--- | :--- |
-| **기본 정보** | 이름, 도감 번호, 세대, 신장, 무게 | PokeAPI | 기본 정보 조회 |
-| **능력치** | HP, 공격, 방어, 특공, 특방, 스피드 | PokeAPI | Text-to-SQL 분석 |
-| **관계성** | 진화 단계, 진화 조건, 타입 상성 | PokeAPI | 복잡한 논리 쿼리 |
-| **설정/도감** | 세대별 도감 설명, 배경 스토리 | Wiki/Web | 의미 기반 벡터 검색 |
-| **실전 데이터** | 추천 성격, 도구, 기술 배치, 샘플 | 커뮤니티 | 배틀 코칭 서비스 |
+데이터베이스는 RAG(검색 증강 생성) 및 Text-to-SQL에 최적화된 5가지 도메인으로 설계되었습니다.
 
----
-
-## 🛠 기술 스택 (Tech Stack)
-
-* **Language:** Python 3.9+
-* **Data Collection:** `Requests` (API), `BeautifulSoup4` / `Playwright` (Scraping)
-* **Database:** * **PostgreSQL:** 정형 데이터 관리 및 관계 정의
-    * **pgvector:** 텍스트 임베딩 데이터 저장 (Vector DB)
-* **Processing:** `Pandas` (ETL), `LangChain` (Text Splitter)
+1. **핵심 정형 데이터**: `pokemon`, `pokemon_stats`
+2. **속성 및 상성 시스템**: `types`, `pokemon_types`, `type_efficacy`
+3. **RAG 핵심 지식 베이스**: `species`, `flavor_text` (추후 임베딩 벡터를 저장할 `VECTOR` 컬럼 포함)
+4. **진화 파이프라인**: `evolutions` (1세대 내 진화 조건 및 도구 매핑)
+5. **전투 및 도구**: `moves`, `items`
 
 ---
 
-## 🗂 프로젝트 구조 (Directory Structure)
+## 🚀 실행 파이프라인 (How to Run)
+
+전체 파이프라인은 **환경 설정 ➡️ DB 구동 ➡️ 수집 ➡️ 정제 ➡️ 적재**의 5단계로 진행됩니다.
+
+### Step 1. 환경 설정 및 의존성 설치
+Python 환경에 필요한 라이브러리를 설치합니다.
+```bash
+pip install -r requirements.txt
+```
+
+루트 디렉토리에 `.env` 파일을 생성하거나 확인합니다. (기본값 설정됨)
+```env
+POSTGRES_USER=postgres
+POSTGRES_PASSWORD=postgres
+POSTGRES_DB=pokemon_db
+POSTGRES_HOST=127.0.0.1
+POSTGRES_PORT=5433
+```
+
+### Step 2. PostgreSQL (pgvector) DB 구동
+Docker Compose를 사용하여 `pgvector` 확장이 포함된 PostgreSQL 컨테이너를 실행합니다.
+(로컬 포트 충돌 방지를 위해 기본적으로 `5433` 포트에 바인딩되어 있습니다.)
+
+```bash
+docker-compose up -d
+```
+> **참고:** 컨테이너가 처음 실행될 때 `database/schema.sql`이 자동으로 마운트되어 테이블이 생성됩니다.
+
+### Step 3. 데이터 수집 (Collection)
+PokeAPI를 호출하여 1세대 포켓몬 관련 Raw JSON 데이터를 수집하여 `data/raw/` 폴더에 저장합니다.
+(수집 대상: 포켓몬 1~151, 속성 18개, 기술 165개, 도구 100개, 진화 트리)
+
+```bash
+python collectors/api_collector.py
+```
+
+### Step 4. 데이터 정제 (Processing)
+수집된 Raw 데이터를 DB 스키마에 맞게 정제 및 매핑합니다. 
+특히 한국어 이름 및 도감 설명(`flavor_text`)을 필터링하여 추출합니다. 정제된 결과는 `data/processed/` 폴더에 저장됩니다.
+
+```bash
+python processing/data_processor.py
+```
+
+### Step 5. DB 적재 (Loading)
+정제된 JSON 데이터를 PostgreSQL 데이터베이스에 삽입합니다. 중복 방지 로직(`ON CONFLICT DO UPDATE`)이 적용되어 있어 여러 번 실행해도 안전합니다.
+
+```bash
+python database/db_loader.py
+```
+
+---
+
+## 🗂 프로젝트 구조
 
 ```text
 Pokemon_DB_Collection/
-├── collectors/           # 데이터 수집 스크립트
-│   ├── api_collector.py  # PokeAPI 호출 로직
-│   └── web_scraper.py    # 위키 크롤링 로직
-├── data/                 # 수집된 Raw 데이터 (JSON/CSV)
-├── database/             # DB 스키마 및 마이그레이션
-│   ├── schema.sql        # ERD 기반 테이블 설계
-│   └── vector_store.py   # 벡터 저장소 연동
-├── processing/           # 데이터 정제 및 임베딩 로직
+├── collectors/           
+│   └── api_collector.py  # PokeAPI 호출 로직
+├── processing/
+│   └── data_processor.py # 한글 추출 및 RDBMS 스키마 매핑
+├── database/             
+│   ├── schema.sql        # pgvector 포함 ERD 기반 설계
+│   └── db_loader.py      # PostgreSQL DB 적재 로직
+├── data/                 
+│   ├── raw/              # PokeAPI 원본 JSON 파일
+│   └── processed/        # DB 적재용 정제된 JSON 파일
+├── docker-compose.yml    # PostgreSQL DB 환경 구성
+├── requirements.txt      # Python 패키지 의존성
 └── README.md
 ```
