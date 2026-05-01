@@ -128,15 +128,20 @@ def load_evolutions(cursor):
     data = load_json("evolutions.json")
     loaded_count = 0
     for row in data:
-        # Filter for Gen 1 species only to avoid FK errors
-        if row['from_species_id'] <= 151 and row['to_species_id'] <= 151:
-            cursor.execute(
-                """INSERT INTO evolutions (from_species_id, to_species_id, min_level, trigger_item_id) 
-                   VALUES (%s, %s, %s, %s)""",
-                (row['from_species_id'], row['to_species_id'], row['min_level'], row['trigger_item_id'])
-            )
-            loaded_count += 1
-    print(f"Loaded {loaded_count} evolutions (filtered to Gen 1).")
+        # Check if item exists if trigger_item_id is provided
+        if row['trigger_item_id']:
+            cursor.execute("SELECT id FROM items WHERE id = %s", (row['trigger_item_id'],))
+            if not cursor.fetchone():
+                print(f"Warning: Item {row['trigger_item_id']} not found in DB. Skipping evolution trigger.")
+                row['trigger_item_id'] = None # Or skip the record, but setting to None is safer for the chain
+        
+        cursor.execute(
+            """INSERT INTO evolutions (from_species_id, to_species_id, min_level, trigger_item_id) 
+               VALUES (%s, %s, %s, %s)""",
+            (row['from_species_id'], row['to_species_id'], row['min_level'], row['trigger_item_id'])
+        )
+        loaded_count += 1
+    print(f"Loaded {loaded_count} evolutions.")
 
 if __name__ == "__main__":
     try:

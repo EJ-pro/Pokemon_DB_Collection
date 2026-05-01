@@ -75,14 +75,14 @@ def collect_evolutions(start_id, end_id):
 
 if __name__ == "__main__":
     ensure_dir()
-    # 1세대 151마리 수집 (완료됨)
-    # collect_pokemon(1, 151)
-    # 18개 기본 속성 수집 (완료됨)
-    # collect_types(1, 18)
-    # 1세대 기술 165개 수집
-    collect_moves(1, 165)
-    # 주요 도구 수집 (진화의 돌 등 포함 대략 1~100)
-    collect_items(1, 100)
-    # 1세대 진화 트리 (약 78개)
-    collect_evolutions(1, 78)
-    print("Collection Phase 1.5 Complete.")
+    # 전체 포켓몬 수집 (약 1025마리)
+    collect_pokemon(1, 1025)
+    # 18개 기본 속성 수집
+    collect_types(1, 18)
+    # 모든 기술 수집 (약 950개)
+    collect_moves(1, 950)
+    # 모든 도구 수집 (약 2250개)
+    collect_items(1, 2250)
+    # 모든 진화 트리 (약 550개)
+    collect_evolutions(1, 550)
+    print("All Generations Collection Complete.")

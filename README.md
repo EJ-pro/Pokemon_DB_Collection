@@ -1,6 +1,6 @@
 # 📑 Pokemon RAG Database Pipeline
 
-> **LLM 및 RAG 시스템 구축을 위한 하이브리드 포켓몬 데이터 파이프라인 (1세대 기준)**
+> **LLM 및 RAG 시스템 구축을 위한 하이브리드 포켓몬 데이터 파이프라인 (전체 세대 지원)**
 
 이 프로젝트는 PokeAPI를 활용하여 포켓몬의 정형 데이터(종족값, 타입, 진화, 기술, 도구)와 비정형 데이터(도감 설명)를 수집, 정제하여 **PostgreSQL (pgvector)** 기반의 지식 베이스를 구축하는 파이프라인입니다.
 
@@ -127,8 +127,8 @@ docker-compose up -d
 > **참고:** 컨테이너가 처음 실행될 때 `database/schema.sql`이 자동으로 마운트되어 테이블이 생성됩니다.
 
 ### Step 3. 데이터 수집 (Collection)
-PokeAPI를 호출하여 1세대 포켓몬 관련 Raw JSON 데이터를 수집하여 `data/raw/` 폴더에 저장합니다.
-(수집 대상: 포켓몬 1~151, 속성 18개, 기술 165개, 도구 100개, 진화 트리)
+PokeAPI를 호출하여 전 세대 포켓몬 관련 Raw JSON 데이터를 수집하여 `data/raw/` 폴더에 저장합니다.
+(수집 대상: 포켓몬 ~1025마리, 속성 18개, 기술 ~919개, 도구 ~2100개, 진화 트리 ~540개)
 
 ```bash
 python collectors/api_collector.py

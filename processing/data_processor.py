@@ -83,7 +83,7 @@ def process_pokemon():
     species_list = []
     flavor_texts_list = []
     
-    for i in range(1, 152):
+    for i in range(1, 1026):
         p_data = load_json(os.path.join(RAW_DATA_DIR, f"pokemon_{i}.json"))
         s_data = load_json(os.path.join(RAW_DATA_DIR, f"species_{i}.json"))
         
@@ -150,7 +150,7 @@ def process_pokemon():
 
 def process_moves():
     moves_list = []
-    for i in range(1, 166):
+    for i in range(1, 951):
         m_data = load_json(os.path.join(RAW_DATA_DIR, f"move_{i}.json"))
         if not m_data: continue
         name_ko = get_korean_name(m_data.get('names', []), m_data['name'])
@@ -175,7 +175,7 @@ def process_moves():
 
 def process_items():
     items_list = []
-    for i in range(1, 101):
+    for i in range(1, 2251):
         i_data = load_json(os.path.join(RAW_DATA_DIR, f"item_{i}.json"))
         if not i_data: continue
         name_ko = get_korean_name(i_data.get('names', []), i_data['name'])
@@ -198,7 +198,7 @@ def process_items():
 
 def process_evolutions():
     evolutions_list = []
-    for i in range(1, 79):
+    for i in range(1, 551):
         e_data = load_json(os.path.join(RAW_DATA_DIR, f"evolution_{i}.json"))
         if not e_data: continue
         
@@ -234,10 +234,10 @@ def process_evolutions():
 
 if __name__ == "__main__":
     ensure_dir()
-    # print("Processing Types...")
-    # process_types()
-    # print("Processing Pokemon...")
-    # process_pokemon()
+    print("Processing Types...")
+    process_types()
+    print("Processing Pokemon...")
+    process_pokemon()
     print("Processing Moves...")
     process_moves()
     print("Processing Items...")
