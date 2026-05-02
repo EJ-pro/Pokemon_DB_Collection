@@ -27,101 +27,101 @@
 
 ```mermaid
 erDiagram
-    pokemon ||--|| pokemon_stats : "has stats"
-    pokemon ||--o{ pokemon_types : "has types"
-    pokemon ||--o{ pokemon_abilities : "has abilities"
-    pokemon ||--|| species : "belongs to"
-    types ||--o{ pokemon_types : "categorizes"
-    types ||--o{ type_efficacy : "damage relationship"
-    types ||--o{ moves : "associated with"
-    abilities ||--o{ pokemon_abilities : "defines"
-    species ||--o{ flavor_text : "has descriptions"
-    species ||--o{ evolutions : "from/to"
-    items ||--o{ evolutions : "triggers"
-    natures ||--o{ species : "modifies (via growth)"
+    pokemon ||--|| pokemon_stats : "능력치 보유"
+    pokemon ||--o{ pokemon_types : "타입 보유"
+    pokemon ||--o{ pokemon_abilities : "특성 보유"
+    pokemon ||--|| species : "종 정보"
+    types ||--o{ pokemon_types : "타입 분류"
+    types ||--o{ type_efficacy : "상성 관계"
+    types ||--o{ moves : "기술 타입"
+    abilities ||--o{ pokemon_abilities : "특성 정의"
+    species ||--o{ flavor_text : "도감 설명"
+    species ||--o{ evolutions : "진화 경로"
+    items ||--o{ evolutions : "진화 도구"
+    natures ||--o{ species : "성격 보정"
 
     pokemon {
-        int id PK
-        string name
-        int height
-        int weight
-        int base_exp
+        int id PK "포켓몬 ID"
+        string name "이름"
+        int height "키"
+        int weight "몸무게"
+        int base_exp "기본 경험치"
     }
     pokemon_stats {
-        int pokemon_id PK, FK
-        int hp
-        int attack
-        int defense
-        int sp_attack
-        int sp_defense
-        int speed
+        int pokemon_id PK, FK "포켓몬 ID"
+        int hp "체력"
+        int attack "공격"
+        int defense "방어"
+        int sp_attack "특수공격"
+        int sp_defense "특수방어"
+        int speed "스피드"
     }
     types {
-        int id PK
-        string name
+        int id PK "타입 ID"
+        string name "타입 이름"
     }
     pokemon_types {
-        int pokemon_id PK, FK
-        int type_id PK, FK
-        int slot
+        int pokemon_id PK, FK "포켓몬 ID"
+        int type_id PK, FK "타입 ID"
+        int slot "슬롯 순서"
     }
     type_efficacy {
-        int damage_type_id PK, FK
-        int target_type_id PK, FK
-        float damage_factor
+        int damage_type_id PK, FK "공격 타입 ID"
+        int target_type_id PK, FK "방어 타입 ID"
+        float damage_factor "대미지 배율"
     }
     species {
-        int id PK
-        int pokemon_id FK
-        int generation
-        int capture_rate
+        int id PK "종 ID"
+        int pokemon_id FK "포켓몬 ID"
+        int generation "세대"
+        int capture_rate "포획률"
     }
     flavor_text {
-        int id PK
-        int species_id FK
-        string version_name
-        string content
-        vector embedding
+        int id PK "ID"
+        int species_id FK "종 ID"
+        string version_name "버전 이름"
+        string content "도감 내용"
+        vector embedding "벡터 임베딩"
     }
     moves {
-        int id PK
-        string name
-        int type_id FK
-        int power
-        int accuracy
-        string damage_class
-        string effect_text
-        vector embedding
+        int id PK "기술 ID"
+        string name "기술 이름"
+        int type_id FK "타입 ID"
+        int power "위력"
+        int accuracy "명중률"
+        string damage_class "분류 (물리/특수/변화)"
+        string effect_text "기술 효과"
+        vector embedding "벡터 임베딩"
     }
     abilities {
-        int id PK
-        string name
-        string effect_text
+        int id PK "특성 ID"
+        string name "특성 이름"
+        string effect_text "특성 효과"
     }
     pokemon_abilities {
-        int pokemon_id PK, FK
-        int ability_id PK, FK
-        boolean is_hidden
-        int slot
+        int pokemon_id PK, FK "포켓몬 ID"
+        int ability_id PK, FK "특성 ID"
+        boolean is_hidden "숨겨진 특성 여부"
+        int slot "슬롯 순서"
     }
     natures {
-        int id PK
-        string name
-        string increased_stat
-        string decreased_stat
+        int id PK "성격 ID"
+        string name "성격 이름"
+        string increased_stat "상승 능력치"
+        string decreased_stat "하락 능력치"
     }
     items {
-        int id PK
-        string name
-        string category
-        string effect_text
+        int id PK "도구 ID"
+        string name "도구 이름"
+        string category "카테고리"
+        string effect_text "도구 효과"
     }
     evolutions {
-        int id PK
-        int from_species_id FK
-        int to_species_id FK
-        int min_level
-        int trigger_item_id FK
+        int id PK "진화 ID"
+        int from_species_id FK "진화 전 종 ID"
+        int to_species_id FK "진화 후 종 ID"
+        int min_level "진화 레벨"
+        int trigger_item_id FK "트리거 도구 ID"
     }
 ```
 
