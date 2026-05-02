@@ -54,7 +54,8 @@ CREATE TABLE IF NOT EXISTS type_efficacy (
 CREATE TABLE IF NOT EXISTS abilities (
     id INTEGER PRIMARY KEY,
     name VARCHAR(100) NOT NULL,
-    effect_text TEXT
+    effect_text TEXT,
+    embedding VECTOR(1536)
 );
 
 CREATE TABLE IF NOT EXISTS pokemon_abilities (
@@ -127,4 +128,14 @@ CREATE TABLE IF NOT EXISTS evolutions (
     to_species_id INTEGER REFERENCES species(id) ON DELETE CASCADE,
     min_level INTEGER,
     trigger_item_id INTEGER REFERENCES items(id) ON DELETE SET NULL
+);
+
+-- ==========================================
+-- 6. 통합 지식 베이스 (Consolidated Knowledge)
+-- ==========================================
+
+CREATE TABLE IF NOT EXISTS pokemon_knowledge (
+    pokemon_id INTEGER PRIMARY KEY REFERENCES pokemon(id) ON DELETE CASCADE,
+    content TEXT NOT NULL,
+    embedding VECTOR(1536)
 );
