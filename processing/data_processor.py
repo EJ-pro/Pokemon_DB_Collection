@@ -82,6 +82,7 @@ def process_pokemon():
     pokemon_types_list = []
     species_list = []
     flavor_texts_list = []
+    pokemon_abilities_list = []
     
     for i in range(1, 1026):
         p_data = load_json(os.path.join(RAW_DATA_DIR, f"pokemon_{i}.json"))
@@ -141,12 +142,23 @@ def process_pokemon():
                 'version_name': f['version_name'],
                 'content': f['content']
             })
+            
+        # 6. Pokemon Abilities
+        for a in p_data.get('abilities', []):
+            ability_id = int(a['ability']['url'].split('/')[-2])
+            pokemon_abilities_list.append({
+                'pokemon_id': p_data['id'],
+                'ability_id': ability_id,
+                'is_hidden': a['is_hidden'],
+                'slot': a['slot']
+            })
 
     save_json(pokemon_list, "pokemon.json")
     save_json(stats_list, "pokemon_stats.json")
     save_json(pokemon_types_list, "pokemon_types.json")
     save_json(species_list, "species.json")
     save_json(flavor_texts_list, "flavor_text.json")
+    save_json(pokemon_abilities_list, "pokemon_abilities.json")
 
 def process_moves():
     moves_list = []
@@ -169,6 +181,7 @@ def process_moves():
             'type_id': type_id,
             'power': m_data.get('power'),
             'accuracy': m_data.get('accuracy'),
+            'damage_class': m_data['damage_class']['name'] if m_data.get('damage_class') else None,
             'effect_text': flavor_text
         })
     save_json(moves_list, "moves.json")
@@ -232,6 +245,46 @@ def process_evolutions():
                 
     save_json(evolutions_list, "evolutions.json")
 
+def process_abilities():
+    abilities_list = []
+    for i in range(1, 308):
+        a_data = load_json(os.path.join(RAW_DATA_DIR, f"ability_{i}.json"))
+        if not a_data: continue
+        
+        name_ko = get_korean_name(a_data.get('names', []), a_data['name'])
+        
+        flavor_text = None
+        for f in a_data.get('flavor_text_entries', []):
+            if f['language']['name'] == 'ko':
+                flavor_text = f['flavor_text'].replace('\n', ' ').replace('\f', ' ').replace('\r', '')
+                break
+        
+        abilities_list.append({
+            'id': a_data['id'],
+            'name': name_ko,
+            'effect_text': flavor_text
+        })
+    save_json(abilities_list, "abilities.json")
+
+def process_natures():
+    natures_list = []
+    for i in range(1, 26):
+        n_data = load_json(os.path.join(RAW_DATA_DIR, f"nature_{i}.json"))
+        if not n_data: continue
+        
+        name_ko = get_korean_name(n_data.get('names', []), n_data['name'])
+        
+        increased_stat = n_data['increased_stat']['name'] if n_data.get('increased_stat') else None
+        decreased_stat = n_data['decreased_stat']['name'] if n_data.get('decreased_stat') else None
+        
+        natures_list.append({
+            'id': n_data['id'],
+            'name': name_ko,
+            'increased_stat': increased_stat,
+            'decreased_stat': decreased_stat
+        })
+    save_json(natures_list, "natures.json")
+
 if __name__ == "__main__":
     ensure_dir()
     print("Processing Types...")
@@ -244,5 +297,9 @@ if __name__ == "__main__":
     process_items()
     print("Processing Evolutions...")
     process_evolutions()
+    print("Processing Abilities...")
+    process_abilities()
+    print("Processing Natures...")
+    process_natures()
     print("Processing Complete.")
 

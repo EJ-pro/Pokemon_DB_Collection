@@ -12262,5 +12262,797 @@
     "name": "roto-stick",
     "category": "gameplay",
     "effect_text": null
+  },
+  {
+    "id": 2101,
+    "name": "teal-style-card",
+    "category": "gameplay",
+    "effect_text": null
+  },
+  {
+    "id": 2102,
+    "name": "teal-mask",
+    "category": "event-items",
+    "effect_text": null
+  },
+  {
+    "id": 2103,
+    "name": "glimmering-charm",
+    "category": "gameplay",
+    "effect_text": null
+  },
+  {
+    "id": 2104,
+    "name": "crystal-cluster",
+    "category": "event-items",
+    "effect_text": null
+  },
+  {
+    "id": 2105,
+    "name": "fairy-feather",
+    "category": "held-items",
+    "effect_text": null
+  },
+  {
+    "id": 2106,
+    "name": "wellspring-mask",
+    "category": "held-items",
+    "effect_text": null
+  },
+  {
+    "id": 2107,
+    "name": "hearthflame-mask",
+    "category": "held-items",
+    "effect_text": null
+  },
+  {
+    "id": 2108,
+    "name": "cornerstone-mask",
+    "category": "held-items",
+    "effect_text": null
+  },
+  {
+    "id": 2109,
+    "name": "syrupy-apple",
+    "category": "evolution",
+    "effect_text": null
+  },
+  {
+    "id": 2110,
+    "name": "unremarkable-teacup",
+    "category": "evolution",
+    "effect_text": null
+  },
+  {
+    "id": 2111,
+    "name": "masterpiece-teacup",
+    "category": "evolution",
+    "effect_text": null
+  },
+  {
+    "id": 2112,
+    "name": "health-mochi",
+    "category": "vitamins",
+    "effect_text": null
+  },
+  {
+    "id": 2113,
+    "name": "muscle-mochi",
+    "category": "vitamins",
+    "effect_text": null
+  },
+  {
+    "id": 2114,
+    "name": "resist-mochi",
+    "category": "vitamins",
+    "effect_text": null
+  },
+  {
+    "id": 2115,
+    "name": "genius-mochi",
+    "category": "vitamins",
+    "effect_text": null
+  },
+  {
+    "id": 2116,
+    "name": "clever-mochi",
+    "category": "vitamins",
+    "effect_text": null
+  },
+  {
+    "id": 2117,
+    "name": "swift-mochi",
+    "category": "vitamins",
+    "effect_text": null
+  },
+  {
+    "id": 2118,
+    "name": "fresh-start-mochi",
+    "category": "vitamins",
+    "effect_text": null
+  },
+  {
+    "id": 2119,
+    "name": "ekans-fang",
+    "category": "tm-materials",
+    "effect_text": null
+  },
+  {
+    "id": 2120,
+    "name": "sandshrew-claw",
+    "category": "tm-materials",
+    "effect_text": null
+  },
+  {
+    "id": 2121,
+    "name": "cleffa-fur",
+    "category": "tm-materials",
+    "effect_text": null
+  },
+  {
+    "id": 2122,
+    "name": "vulpix-fur",
+    "category": "tm-materials",
+    "effect_text": null
+  },
+  {
+    "id": 2123,
+    "name": "poliwag-slime",
+    "category": "tm-materials",
+    "effect_text": null
+  },
+  {
+    "id": 2124,
+    "name": "bellsprout-vine",
+    "category": "tm-materials",
+    "effect_text": null
+  },
+  {
+    "id": 2125,
+    "name": "geodude-fragment",
+    "category": "tm-materials",
+    "effect_text": null
+  },
+  {
+    "id": 2126,
+    "name": "koffing-gas",
+    "category": "tm-materials",
+    "effect_text": null
+  },
+  {
+    "id": 2127,
+    "name": "munchlax-fang",
+    "category": "tm-materials",
+    "effect_text": null
+  },
+  {
+    "id": 2128,
+    "name": "sentret-fur",
+    "category": "tm-materials",
+    "effect_text": null
+  },
+  {
+    "id": 2129,
+    "name": "hoothoot-feather",
+    "category": "tm-materials",
+    "effect_text": null
+  },
+  {
+    "id": 2130,
+    "name": "spinarak-thread",
+    "category": "tm-materials",
+    "effect_text": null
+  },
+  {
+    "id": 2131,
+    "name": "aipom-hair",
+    "category": "tm-materials",
+    "effect_text": null
+  },
+  {
+    "id": 2132,
+    "name": "yanma-spike",
+    "category": "tm-materials",
+    "effect_text": null
+  },
+  {
+    "id": 2133,
+    "name": "gligar-fang",
+    "category": "tm-materials",
+    "effect_text": null
+  },
+  {
+    "id": 2134,
+    "name": "slugma-lava",
+    "category": "tm-materials",
+    "effect_text": null
+  },
+  {
+    "id": 2135,
+    "name": "swinub-hair",
+    "category": "tm-materials",
+    "effect_text": null
+  },
+  {
+    "id": 2136,
+    "name": "poochyena-fang",
+    "category": "tm-materials",
+    "effect_text": null
+  },
+  {
+    "id": 2137,
+    "name": "lotad-leaf",
+    "category": "tm-materials",
+    "effect_text": null
+  },
+  {
+    "id": 2138,
+    "name": "seedot-stem",
+    "category": "tm-materials",
+    "effect_text": null
+  },
+  {
+    "id": 2139,
+    "name": "nosepass-fragment",
+    "category": "tm-materials",
+    "effect_text": null
+  },
+  {
+    "id": 2140,
+    "name": "volbeat-fluid",
+    "category": "tm-materials",
+    "effect_text": null
+  },
+  {
+    "id": 2141,
+    "name": "illumise-fluid",
+    "category": "tm-materials",
+    "effect_text": null
+  },
+  {
+    "id": 2142,
+    "name": "corphish-shell",
+    "category": "tm-materials",
+    "effect_text": null
+  },
+  {
+    "id": 2143,
+    "name": "feebas-scales",
+    "category": "tm-materials",
+    "effect_text": null
+  },
+  {
+    "id": 2144,
+    "name": "duskull-fragment",
+    "category": "tm-materials",
+    "effect_text": null
+  },
+  {
+    "id": 2145,
+    "name": "chingling-fragment",
+    "category": "tm-materials",
+    "effect_text": null
+  },
+  {
+    "id": 2146,
+    "name": "timburr-sweat",
+    "category": "tm-materials",
+    "effect_text": null
+  },
+  {
+    "id": 2147,
+    "name": "sewaddle-leaf",
+    "category": "tm-materials",
+    "effect_text": null
+  },
+  {
+    "id": 2148,
+    "name": "ducklett-feather",
+    "category": "tm-materials",
+    "effect_text": null
+  },
+  {
+    "id": 2149,
+    "name": "litwick-soot",
+    "category": "tm-materials",
+    "effect_text": null
+  },
+  {
+    "id": 2150,
+    "name": "mienfoo-claw",
+    "category": "tm-materials",
+    "effect_text": null
+  },
+  {
+    "id": 2151,
+    "name": "vullaby-feather",
+    "category": "tm-materials",
+    "effect_text": null
+  },
+  {
+    "id": 2152,
+    "name": "carbink-jewel",
+    "category": "tm-materials",
+    "effect_text": null
+  },
+  {
+    "id": 2153,
+    "name": "phantump-twig",
+    "category": "tm-materials",
+    "effect_text": null
+  },
+  {
+    "id": 2154,
+    "name": "grubbin-thread",
+    "category": "tm-materials",
+    "effect_text": null
+  },
+  {
+    "id": 2155,
+    "name": "cutiefly-powder",
+    "category": "tm-materials",
+    "effect_text": null
+  },
+  {
+    "id": 2156,
+    "name": "jangmo-o-scales",
+    "category": "tm-materials",
+    "effect_text": null
+  },
+  {
+    "id": 2157,
+    "name": "cramorant-down",
+    "category": "tm-materials",
+    "effect_text": null
+  },
+  {
+    "id": 2158,
+    "name": "morpeko-snack",
+    "category": "tm-materials",
+    "effect_text": null
+  },
+  {
+    "id": 2159,
+    "name": "poltchageist-powder",
+    "category": "tm-materials",
+    "effect_text": null
+  },
+  {
+    "id": 2160,
+    "name": "linking-cord",
+    "category": "evolution",
+    "effect_text": null
+  },
+  {
+    "id": 2161,
+    "name": "tm172",
+    "category": "all-machines",
+    "effect_text": null
+  },
+  {
+    "id": 2162,
+    "name": "tm173",
+    "category": "all-machines",
+    "effect_text": null
+  },
+  {
+    "id": 2163,
+    "name": "tm174",
+    "category": "all-machines",
+    "effect_text": null
+  },
+  {
+    "id": 2164,
+    "name": "tm175",
+    "category": "all-machines",
+    "effect_text": null
+  },
+  {
+    "id": 2165,
+    "name": "tm176",
+    "category": "all-machines",
+    "effect_text": null
+  },
+  {
+    "id": 2166,
+    "name": "tm177",
+    "category": "all-machines",
+    "effect_text": null
+  },
+  {
+    "id": 2167,
+    "name": "tm178",
+    "category": "all-machines",
+    "effect_text": null
+  },
+  {
+    "id": 2168,
+    "name": "tm179",
+    "category": "all-machines",
+    "effect_text": null
+  },
+  {
+    "id": 2169,
+    "name": "tm180",
+    "category": "all-machines",
+    "effect_text": null
+  },
+  {
+    "id": 2170,
+    "name": "tm181",
+    "category": "all-machines",
+    "effect_text": null
+  },
+  {
+    "id": 2171,
+    "name": "tm182",
+    "category": "all-machines",
+    "effect_text": null
+  },
+  {
+    "id": 2172,
+    "name": "tm183",
+    "category": "all-machines",
+    "effect_text": null
+  },
+  {
+    "id": 2173,
+    "name": "tm184",
+    "category": "all-machines",
+    "effect_text": null
+  },
+  {
+    "id": 2174,
+    "name": "tm185",
+    "category": "all-machines",
+    "effect_text": null
+  },
+  {
+    "id": 2175,
+    "name": "tm186",
+    "category": "all-machines",
+    "effect_text": null
+  },
+  {
+    "id": 2176,
+    "name": "tm187",
+    "category": "all-machines",
+    "effect_text": null
+  },
+  {
+    "id": 2177,
+    "name": "tm188",
+    "category": "all-machines",
+    "effect_text": null
+  },
+  {
+    "id": 2178,
+    "name": "tm189",
+    "category": "all-machines",
+    "effect_text": null
+  },
+  {
+    "id": 2179,
+    "name": "tm190",
+    "category": "all-machines",
+    "effect_text": null
+  },
+  {
+    "id": 2180,
+    "name": "tm191",
+    "category": "all-machines",
+    "effect_text": null
+  },
+  {
+    "id": 2181,
+    "name": "tm192",
+    "category": "all-machines",
+    "effect_text": null
+  },
+  {
+    "id": 2182,
+    "name": "tm193",
+    "category": "all-machines",
+    "effect_text": null
+  },
+  {
+    "id": 2183,
+    "name": "tm194",
+    "category": "all-machines",
+    "effect_text": null
+  },
+  {
+    "id": 2184,
+    "name": "tm195",
+    "category": "all-machines",
+    "effect_text": null
+  },
+  {
+    "id": 2185,
+    "name": "tm196",
+    "category": "all-machines",
+    "effect_text": null
+  },
+  {
+    "id": 2186,
+    "name": "tm197",
+    "category": "all-machines",
+    "effect_text": null
+  },
+  {
+    "id": 2187,
+    "name": "tm198",
+    "category": "all-machines",
+    "effect_text": null
+  },
+  {
+    "id": 2188,
+    "name": "tm199",
+    "category": "all-machines",
+    "effect_text": null
+  },
+  {
+    "id": 2189,
+    "name": "tm200",
+    "category": "all-machines",
+    "effect_text": null
+  },
+  {
+    "id": 2190,
+    "name": "tm201",
+    "category": "all-machines",
+    "effect_text": null
+  },
+  {
+    "id": 2191,
+    "name": "tm202",
+    "category": "all-machines",
+    "effect_text": null
+  },
+  {
+    "id": 2192,
+    "name": "tm203",
+    "category": "all-machines",
+    "effect_text": null
+  },
+  {
+    "id": 2193,
+    "name": "tm204",
+    "category": "all-machines",
+    "effect_text": null
+  },
+  {
+    "id": 2194,
+    "name": "tm205",
+    "category": "all-machines",
+    "effect_text": null
+  },
+  {
+    "id": 2195,
+    "name": "tm206",
+    "category": "all-machines",
+    "effect_text": null
+  },
+  {
+    "id": 2196,
+    "name": "tm207",
+    "category": "all-machines",
+    "effect_text": null
+  },
+  {
+    "id": 2197,
+    "name": "tm208",
+    "category": "all-machines",
+    "effect_text": null
+  },
+  {
+    "id": 2198,
+    "name": "tm209",
+    "category": "all-machines",
+    "effect_text": null
+  },
+  {
+    "id": 2199,
+    "name": "tm210",
+    "category": "all-machines",
+    "effect_text": null
+  },
+  {
+    "id": 2200,
+    "name": "tm211",
+    "category": "all-machines",
+    "effect_text": null
+  },
+  {
+    "id": 2201,
+    "name": "tm212",
+    "category": "all-machines",
+    "effect_text": null
+  },
+  {
+    "id": 2202,
+    "name": "tm213",
+    "category": "all-machines",
+    "effect_text": null
+  },
+  {
+    "id": 2203,
+    "name": "tm214",
+    "category": "all-machines",
+    "effect_text": null
+  },
+  {
+    "id": 2204,
+    "name": "tm215",
+    "category": "all-machines",
+    "effect_text": null
+  },
+  {
+    "id": 2205,
+    "name": "tm216",
+    "category": "all-machines",
+    "effect_text": null
+  },
+  {
+    "id": 2206,
+    "name": "tm217",
+    "category": "all-machines",
+    "effect_text": null
+  },
+  {
+    "id": 2207,
+    "name": "tm218",
+    "category": "all-machines",
+    "effect_text": null
+  },
+  {
+    "id": 2208,
+    "name": "tm219",
+    "category": "all-machines",
+    "effect_text": null
+  },
+  {
+    "id": 2209,
+    "name": "tm220",
+    "category": "all-machines",
+    "effect_text": null
+  },
+  {
+    "id": 2210,
+    "name": "tm221",
+    "category": "all-machines",
+    "effect_text": null
+  },
+  {
+    "id": 2211,
+    "name": "tm222",
+    "category": "all-machines",
+    "effect_text": null
+  },
+  {
+    "id": 2212,
+    "name": "tm223",
+    "category": "all-machines",
+    "effect_text": null
+  },
+  {
+    "id": 2213,
+    "name": "tm224",
+    "category": "all-machines",
+    "effect_text": null
+  },
+  {
+    "id": 2214,
+    "name": "tm225",
+    "category": "all-machines",
+    "effect_text": null
+  },
+  {
+    "id": 2215,
+    "name": "tm226",
+    "category": "all-machines",
+    "effect_text": null
+  },
+  {
+    "id": 2216,
+    "name": "tm227",
+    "category": "all-machines",
+    "effect_text": null
+  },
+  {
+    "id": 2217,
+    "name": "tm228",
+    "category": "all-machines",
+    "effect_text": null
+  },
+  {
+    "id": 2218,
+    "name": "tm229",
+    "category": "all-machines",
+    "effect_text": null
+  },
+  {
+    "id": 2219,
+    "name": "lastrange-ball",
+    "category": "standard-balls",
+    "effect_text": null
+  },
+  {
+    "id": 2220,
+    "name": "lapoke-ball",
+    "category": "standard-balls",
+    "effect_text": null
+  },
+  {
+    "id": 2221,
+    "name": "lagreat-ball",
+    "category": "standard-balls",
+    "effect_text": null
+  },
+  {
+    "id": 2222,
+    "name": "laultra-ball",
+    "category": "standard-balls",
+    "effect_text": null
+  },
+  {
+    "id": 2223,
+    "name": "laheavy-ball",
+    "category": "standard-balls",
+    "effect_text": null
+  },
+  {
+    "id": 2224,
+    "name": "laleaden-ball",
+    "category": "standard-balls",
+    "effect_text": null
+  },
+  {
+    "id": 2225,
+    "name": "lagigaton-ball",
+    "category": "standard-balls",
+    "effect_text": null
+  },
+  {
+    "id": 2226,
+    "name": "lafeather-ball",
+    "category": "standard-balls",
+    "effect_text": null
+  },
+  {
+    "id": 2227,
+    "name": "lawing-ball",
+    "category": "standard-balls",
+    "effect_text": null
+  },
+  {
+    "id": 2228,
+    "name": "lajet-ball",
+    "category": "standard-balls",
+    "effect_text": null
+  },
+  {
+    "id": 2229,
+    "name": "laorigin-ball",
+    "category": "standard-balls",
+    "effect_text": null
+  },
+  {
+    "id": 2230,
+    "name": "black-augurite",
+    "category": "evolution",
+    "effect_text": null
+  },
+  {
+    "id": 2231,
+    "name": "peat-block",
+    "category": "evolution",
+    "effect_text": null
+  },
+  {
+    "id": 2232,
+    "name": "metal-alloy",
+    "category": "evolution",
+    "effect_text": null
   }
 ]

@@ -16,6 +16,27 @@ def get_connection():
         port=os.getenv("POSTGRES_PORT", "5433")
     )
 
+def ensure_schema_up_to_date(cursor):
+    print("Checking database schema...")
+    # 1. Add damage_class to moves if missing
+    cursor.execute("""
+        DO $$ 
+        BEGIN 
+            IF NOT EXISTS (SELECT 1 FROM information_schema.columns 
+                           WHERE table_name='moves' AND column_name='damage_class') THEN
+                ALTER TABLE moves ADD COLUMN damage_class VARCHAR(20);
+            END IF;
+        END $$;
+    """)
+    
+    # 2. Run schema.sql to create new tables if they don't exist
+    schema_path = os.path.join(os.path.dirname(__file__), "schema.sql")
+    if os.path.exists(schema_path):
+        with open(schema_path, 'r', encoding='utf-8') as f:
+            cursor.execute(f.read())
+    
+    print("Schema is up to date.")
+
 def load_json(filename):
     filepath = os.path.join(PROCESSED_DATA_DIR, filename)
     if os.path.exists(filepath):
@@ -113,14 +134,47 @@ def load_items(cursor):
         )
     print(f"Loaded {len(data)} items.")
 
+def load_abilities(cursor):
+    data = load_json("abilities.json")
+    for row in data:
+        cursor.execute(
+            """INSERT INTO abilities (id, name, effect_text) 
+               VALUES (%s, %s, %s) 
+               ON CONFLICT (id) DO UPDATE SET name = EXCLUDED.name, effect_text = EXCLUDED.effect_text""",
+            (row['id'], row['name'], row['effect_text'])
+        )
+    print(f"Loaded {len(data)} abilities.")
+
+def load_pokemon_abilities(cursor):
+    data = load_json("pokemon_abilities.json")
+    for row in data:
+        cursor.execute(
+            """INSERT INTO pokemon_abilities (pokemon_id, ability_id, is_hidden, slot) 
+               VALUES (%s, %s, %s, %s) 
+               ON CONFLICT (pokemon_id, ability_id) DO UPDATE SET is_hidden = EXCLUDED.is_hidden, slot = EXCLUDED.slot""",
+            (row['pokemon_id'], row['ability_id'], row['is_hidden'], row['slot'])
+        )
+    print(f"Loaded {len(data)} pokemon abilities.")
+
+def load_natures(cursor):
+    data = load_json("natures.json")
+    for row in data:
+        cursor.execute(
+            """INSERT INTO natures (id, name, increased_stat, decreased_stat) 
+               VALUES (%s, %s, %s, %s) 
+               ON CONFLICT (id) DO UPDATE SET name = EXCLUDED.name, increased_stat = EXCLUDED.increased_stat, decreased_stat = EXCLUDED.decreased_stat""",
+            (row['id'], row['name'], row['increased_stat'], row['decreased_stat'])
+        )
+    print(f"Loaded {len(data)} natures.")
+
 def load_moves(cursor):
     data = load_json("moves.json")
     for row in data:
         cursor.execute(
-            """INSERT INTO moves (id, name, type_id, power, accuracy, effect_text) 
-               VALUES (%s, %s, %s, %s, %s, %s) 
-               ON CONFLICT (id) DO UPDATE SET name = EXCLUDED.name, type_id = EXCLUDED.type_id, power = EXCLUDED.power, accuracy = EXCLUDED.accuracy, effect_text = EXCLUDED.effect_text""",
-            (row['id'], row['name'], row['type_id'], row['power'], row['accuracy'], row['effect_text'])
+            """INSERT INTO moves (id, name, type_id, power, accuracy, damage_class, effect_text) 
+               VALUES (%s, %s, %s, %s, %s, %s, %s) 
+               ON CONFLICT (id) DO UPDATE SET name = EXCLUDED.name, type_id = EXCLUDED.type_id, power = EXCLUDED.power, accuracy = EXCLUDED.accuracy, damage_class = EXCLUDED.damage_class, effect_text = EXCLUDED.effect_text""",
+            (row['id'], row['name'], row['type_id'], row['power'], row['accuracy'], row['damage_class'], row['effect_text'])
         )
     print(f"Loaded {len(data)} moves.")
 
@@ -148,6 +202,9 @@ if __name__ == "__main__":
         conn = get_connection()
         cursor = conn.cursor()
         
+        print("Synchronizing Database Schema...")
+        ensure_schema_up_to_date(cursor)
+        
         print("Loading additional data into Database...")
         load_types(cursor)
         load_type_efficacy(cursor)
@@ -161,6 +218,9 @@ if __name__ == "__main__":
 
         load_items(cursor)
         load_moves(cursor)
+        load_abilities(cursor)
+        load_pokemon_abilities(cursor)
+        load_natures(cursor)
         cursor.execute("TRUNCATE TABLE evolutions RESTART IDENTITY;")
         load_evolutions(cursor)
 

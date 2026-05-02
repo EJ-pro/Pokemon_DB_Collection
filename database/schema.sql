@@ -48,6 +48,24 @@ CREATE TABLE IF NOT EXISTS type_efficacy (
 );
 
 -- ==========================================
+-- 2.5 특성 시스템 (Abilities)
+-- ==========================================
+
+CREATE TABLE IF NOT EXISTS abilities (
+    id INTEGER PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    effect_text TEXT
+);
+
+CREATE TABLE IF NOT EXISTS pokemon_abilities (
+    pokemon_id INTEGER REFERENCES pokemon(id) ON DELETE CASCADE,
+    ability_id INTEGER REFERENCES abilities(id) ON DELETE CASCADE,
+    is_hidden BOOLEAN NOT NULL,
+    slot INTEGER NOT NULL,
+    PRIMARY KEY (pokemon_id, ability_id)
+);
+
+-- ==========================================
 -- 3. RAG 핵심 지식 베이스 (Species & Unstructured Data)
 -- ==========================================
 
@@ -67,6 +85,17 @@ CREATE TABLE IF NOT EXISTS flavor_text (
 );
 
 -- ==========================================
+-- 3.5 성격 시스템 (Natures)
+-- ==========================================
+
+CREATE TABLE IF NOT EXISTS natures (
+    id INTEGER PRIMARY KEY,
+    name VARCHAR(50) NOT NULL,
+    increased_stat VARCHAR(50),
+    decreased_stat VARCHAR(50)
+);
+
+-- ==========================================
 -- 5. 전투 및 도구 (Moves & Items)
 -- ==========================================
 
@@ -76,6 +105,7 @@ CREATE TABLE IF NOT EXISTS moves (
     type_id INTEGER REFERENCES types(id) ON DELETE SET NULL,
     power INTEGER,
     accuracy INTEGER,
+    damage_class VARCHAR(20), -- physical, special, status
     effect_text TEXT,
     embedding VECTOR(1536) -- Optional for vector search
 );

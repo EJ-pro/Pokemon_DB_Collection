@@ -73,6 +73,22 @@ def collect_evolutions(start_id, end_id):
             save_json(evo_data, f"evolution_{i}.json")
         time.sleep(0.1)
 
+def collect_abilities(start_id, end_id):
+    print("Collecting Abilities data...")
+    for i in tqdm(range(start_id, end_id + 1)):
+        ability_data = fetch_data(f"ability/{i}")
+        if ability_data:
+            save_json(ability_data, f"ability_{i}.json")
+        time.sleep(0.1)
+
+def collect_natures(start_id, end_id):
+    print("Collecting Natures data...")
+    for i in tqdm(range(start_id, end_id + 1)):
+        nature_data = fetch_data(f"nature/{i}")
+        if nature_data:
+            save_json(nature_data, f"nature_{i}.json")
+        time.sleep(0.1)
+
 if __name__ == "__main__":
     ensure_dir()
     # 전체 포켓몬 수집 (약 1025마리)
@@ -85,4 +101,8 @@ if __name__ == "__main__":
     collect_items(1, 2250)
     # 모든 진화 트리 (약 550개)
     collect_evolutions(1, 550)
+    # 모든 특성 수집 (약 307개)
+    collect_abilities(1, 307)
+    # 모든 성격 수집 (25개)
+    collect_natures(1, 25)
     print("All Generations Collection Complete.")

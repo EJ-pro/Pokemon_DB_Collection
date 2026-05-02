@@ -11,10 +11,10 @@
 데이터베이스는 RAG(검색 증강 생성) 및 Text-to-SQL에 최적화된 5가지 도메인으로 설계되었습니다.
 
 1. **핵심 정형 데이터**: `pokemon`, `pokemon_stats`
-2. **속성 및 상성 시스템**: `types`, `pokemon_types`, `type_efficacy`
-3. **RAG 핵심 지식 베이스**: `species`, `flavor_text` (추후 임베딩 벡터를 저장할 `VECTOR` 컬럼 포함)
-4. **진화 파이프라인**: `evolutions` (1세대 내 진화 조건 및 도구 매핑)
-5. **전투 및 도구**: `moves`, `items`
+2. **속성 및 특성 시스템**: `types`, `pokemon_types`, `abilities`, `pokemon_abilities`, `type_efficacy`
+3. **RAG 핵심 지식 베이스**: `species`, `flavor_text`, `natures` (성격 보정 데이터 포함)
+4. **진화 파이프라인**: `evolutions` (전 세대 진화 조건 및 도구 매핑)
+5. **전투 및 도구**: `moves` (물리/특수 구분 포함), `items`
 
 ### ERD (Entity Relationship Diagram)
 
@@ -22,13 +22,16 @@
 erDiagram
     pokemon ||--|| pokemon_stats : "has stats"
     pokemon ||--o{ pokemon_types : "has types"
-    pokemon ||--o{ species : "belongs to"
+    pokemon ||--o{ pokemon_abilities : "has abilities"
+    pokemon ||--|| species : "belongs to"
     types ||--o{ pokemon_types : "categorizes"
     types ||--o{ type_efficacy : "damage relationship"
     types ||--o{ moves : "associated with"
+    abilities ||--o{ pokemon_abilities : "defines"
     species ||--o{ flavor_text : "has descriptions"
     species ||--o{ evolutions : "from/to"
     items ||--o{ evolutions : "triggers"
+    natures ||--o{ species : "modifies (via growth)"
 
     pokemon {
         int id PK
@@ -79,8 +82,26 @@ erDiagram
         int type_id FK
         int power
         int accuracy
+        string damage_class
         string effect_text
         vector embedding
+    }
+    abilities {
+        int id PK
+        string name
+        string effect_text
+    }
+    pokemon_abilities {
+        int pokemon_id PK, FK
+        int ability_id PK, FK
+        boolean is_hidden
+        int slot
+    }
+    natures {
+        int id PK
+        string name
+        string increased_stat
+        string decreased_stat
     }
     items {
         int id PK
@@ -128,7 +149,7 @@ docker-compose up -d
 
 ### Step 3. 데이터 수집 (Collection)
 PokeAPI를 호출하여 전 세대 포켓몬 관련 Raw JSON 데이터를 수집하여 `data/raw/` 폴더에 저장합니다.
-(수집 대상: 포켓몬 ~1025마리, 속성 18개, 기술 ~919개, 도구 ~2100개, 진화 트리 ~540개)
+(수집 대상: 포켓몬 ~1025마리, 속성 18개, 기술 ~950개, 도구 ~2250개, 특성 ~307개, 성격 25개, 진화 트리 ~550개)
 
 ```bash
 python collectors/api_collector.py
@@ -148,6 +169,25 @@ python processing/data_processor.py
 ```bash
 python database/db_loader.py
 ```
+
+### Step 6. 자동 업데이트 설정 (Automation)
+매일 아침 9시에 자동으로 수집 및 업데이트를 진행하려면 스케줄러를 실행합니다.
+
+```bash
+# 의존성 설치 (schedule 추가됨)
+pip install -r requirements.txt
+
+# 스케줄러 실행
+python scheduler.py
+```
+
+---
+
+## 🛠 유틸리티 및 파이프라인 스크립트
+
+- `main_pipeline.py`: 수집 ➡️ 정제 ➡️ 적재를 한 번에 실행하는 통합 스크립트입니다.
+- `scheduler.py`: `main_pipeline.py`를 매일 특정 시간에 실행하는 스케줄러입니다.
+- `scratch/check_counts.py`: PokeAPI의 현재 데이터 개수를 확인하는 도구입니다.
 
 ---
 
