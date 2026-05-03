@@ -30,10 +30,12 @@ erDiagram
     pokemon ||--|| pokemon_stats : "능력치 보유"
     pokemon ||--o{ pokemon_types : "타입 보유"
     pokemon ||--o{ pokemon_abilities : "특성 보유"
+    pokemon ||--o{ pokemon_moves : "기술 습득"
     pokemon ||--|| species : "종 정보"
     types ||--o{ pokemon_types : "타입 분류"
     types ||--o{ type_efficacy : "상성 관계"
     types ||--o{ moves : "기술 타입"
+    moves ||--o{ pokemon_moves : "기술 데이터"
     abilities ||--o{ pokemon_abilities : "특성 정의"
     species ||--o{ flavor_text : "도감 설명"
     species ||--o{ evolutions : "진화 경로"
@@ -46,6 +48,9 @@ erDiagram
         int height "키"
         int weight "몸무게"
         int base_exp "기본 경험치"
+        string image_url "이미지 URL"
+        string cry_url "울음소리 URL"
+        boolean is_default "기본 폼 여부"
     }
     pokemon_stats {
         int pokemon_id PK, FK "포켓몬 ID"
@@ -103,6 +108,12 @@ erDiagram
         int ability_id PK, FK "특성 ID"
         boolean is_hidden "숨겨진 특성 여부"
         int slot "슬롯 순서"
+    }
+    pokemon_moves {
+        int pokemon_id PK, FK "포켓몬 ID"
+        int move_id PK, FK "기술 ID"
+        string learn_method PK "습득 방식"
+        int level_learned_at PK "습득 레벨"
     }
     natures {
         int id PK "성격 ID"
