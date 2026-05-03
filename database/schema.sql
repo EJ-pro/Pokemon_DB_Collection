@@ -10,7 +10,8 @@ CREATE TABLE IF NOT EXISTS pokemon (
     name VARCHAR(100) NOT NULL,
     height INTEGER,
     weight INTEGER,
-    base_exp INTEGER
+    base_exp INTEGER,
+    image_url VARCHAR(255)
 );
 
 CREATE TABLE IF NOT EXISTS pokemon_stats (

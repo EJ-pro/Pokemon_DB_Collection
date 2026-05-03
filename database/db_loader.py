@@ -33,6 +33,12 @@ def ensure_schema_up_to_date(cursor):
                            WHERE table_name='abilities' AND column_name='embedding') THEN
                 ALTER TABLE abilities ADD COLUMN embedding VECTOR(1536);
             END IF;
+
+            -- pokemon 테이블에 image_url 추가
+            IF NOT EXISTS (SELECT 1 FROM information_schema.columns 
+                           WHERE table_name='pokemon' AND column_name='image_url') THEN
+                ALTER TABLE pokemon ADD COLUMN image_url VARCHAR(255);
+            END IF;
         END $$;
     """)
     
@@ -76,10 +82,12 @@ def load_pokemon(cursor):
     data = load_json("pokemon.json")
     for row in data:
         cursor.execute(
-            """INSERT INTO pokemon (id, name, height, weight, base_exp) 
-               VALUES (%s, %s, %s, %s, %s) 
-               ON CONFLICT (id) DO UPDATE SET name = EXCLUDED.name, height = EXCLUDED.height, weight = EXCLUDED.weight, base_exp = EXCLUDED.base_exp""",
-            (row['id'], row['name'], row['height'], row['weight'], row['base_exp'])
+            """INSERT INTO pokemon (id, name, height, weight, base_exp, image_url) 
+               VALUES (%s, %s, %s, %s, %s, %s) 
+               ON CONFLICT (id) DO UPDATE SET 
+               name = EXCLUDED.name, height = EXCLUDED.height, weight = EXCLUDED.weight, 
+               base_exp = EXCLUDED.base_exp, image_url = EXCLUDED.image_url""",
+            (row['id'], row['name'], row['height'], row['weight'], row['base_exp'], row['image_url'])
         )
     print(f"Loaded {len(data)} pokemon.")
 

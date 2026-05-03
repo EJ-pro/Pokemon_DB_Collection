@@ -93,13 +93,21 @@ def process_pokemon():
         # Korean name extraction
         name_ko = get_korean_name(s_data.get('names', []), p_data['name'])
         
+        # Image URL extraction
+        # Priority: official-artwork > front_default
+        sprites = p_data.get('sprites', {})
+        image_url = sprites.get('other', {}).get('official-artwork', {}).get('front_default')
+        if not image_url:
+            image_url = sprites.get('front_default')
+
         # 1. Pokemon
         pokemon_list.append({
             'id': p_data['id'],
             'name': name_ko,
             'height': p_data['height'],
             'weight': p_data['weight'],
-            'base_exp': p_data['base_experience']
+            'base_exp': p_data['base_experience'],
+            'image_url': image_url
         })
         
         # 2. Pokemon Stats
