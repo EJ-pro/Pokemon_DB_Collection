@@ -196,12 +196,23 @@ python database/db_loader.py
 python scheduler.py
 ```
 
+### Step 7. 데이터 벡터화 (Vectorization & RAG)
+OpenAI 임베딩 모델을 사용하여 기술, 특성, 도감 설명을 벡터로 변환합니다.
+
+```bash
+python database/vectorizer.py
+```
+
+> [!IMPORTANT]
+> **데이터 휴대성 (Portability):** `vectorizer.py`는 생성된 임베딩 값을 `data/processed/` 폴더 내의 JSON 파일들에 자동으로 동기화합니다. 이 폴더만 복사하면 다른 PC(노트북 등)에서도 **추가적인 OpenAI API 호출 비용 없이** `db_loader.py`만으로 임베딩이 포함된 DB를 즉시 구축할 수 있습니다.
+
 ---
 
 ## 🛠 유틸리티 및 파이프라인 스크립트
 
-- `main_pipeline.py`: 수집 ➡️ 정제 ➡️ 적재를 한 번에 실행하는 통합 스크립트입니다.
+- `main_pipeline.py`: 수집 ➡️ 정제 ➡️ 적재 ➡️ 벡터화를 한 번에 실행하는 통합 스크립트입니다.
 - `scheduler.py`: `main_pipeline.py`를 매일 특정 시간에 실행하는 스케줄러입니다.
+- `database/vectorizer.py`: 텍스트 데이터를 벡터로 변환하고 JSON 파일과 동기화합니다.
 - `scratch/check_counts.py`: PokeAPI의 실시간 데이터 개수를 확인하는 유틸리티입니다.
 
 ---
@@ -216,7 +227,8 @@ Pokemon_DB_Collection/
 │   └── data_processor.py # 한글 추출 및 RDBMS 스키마 매핑
 ├── database/             
 │   ├── schema.sql        # pgvector 포함 ERD 기반 설계
-│   └── db_loader.py      # PostgreSQL DB 적재 로직 (Schema Sync 기능 포함)
+│   ├── db_loader.py      # PostgreSQL DB 적재 로직 (Schema Sync 기능 포함)
+│   └── vectorizer.py     # OpenAI 임베딩 생성 및 JSON 동기화 로직
 ├── data/                 
 │   ├── raw/              # PokeAPI 원본 JSON 파일
 │   └── processed/        # DB 적재용 정제된 JSON 파일
