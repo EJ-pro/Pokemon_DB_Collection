@@ -16,9 +16,9 @@ def main():
     print("Starting Pokemon Data Pipeline Update...")
     
     scripts = [
-        "collectors/api_collector.py",
-        "processing/data_processor.py",
-        "database/db_loader.py",
+        # "collectors/api_collector.py",
+        # "processing/data_processor.py",
+        # "database/db_loader.py",
         "database/vectorizer.py"
     ]
     

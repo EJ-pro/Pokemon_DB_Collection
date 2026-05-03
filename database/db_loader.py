@@ -18,13 +18,20 @@ def get_connection():
 
 def ensure_schema_up_to_date(cursor):
     print("Checking database schema...")
-    # 1. Add damage_class to moves if missing
+    # 1. Add missing columns to existing tables
     cursor.execute("""
         DO $$ 
         BEGIN 
+            -- moves 테이블에 damage_class 추가
             IF NOT EXISTS (SELECT 1 FROM information_schema.columns 
                            WHERE table_name='moves' AND column_name='damage_class') THEN
                 ALTER TABLE moves ADD COLUMN damage_class VARCHAR(20);
+            END IF;
+
+            -- abilities 테이블에 embedding 추가
+            IF NOT EXISTS (SELECT 1 FROM information_schema.columns 
+                           WHERE table_name='abilities' AND column_name='embedding') THEN
+                ALTER TABLE abilities ADD COLUMN embedding VECTOR(1536);
             END IF;
         END $$;
     """)
@@ -114,12 +121,12 @@ def load_species(cursor):
 def load_flavor_text(cursor):
     data = load_json("flavor_text.json")
     for row in data:
-        # flavor_text uses SERIAL for ID, so we insert without conflict handling for simplicity,
-        # but in production we'd want to avoid duplicates.
+        # flavor_text uses SERIAL for ID, so we insert without conflict handling for simplicity
+        embedding = row.get('embedding')
         cursor.execute(
-            """INSERT INTO flavor_text (species_id, version_name, content) 
-               VALUES (%s, %s, %s)""",
-            (row['species_id'], row['version_name'], row['content'])
+            """INSERT INTO flavor_text (species_id, version_name, content, embedding) 
+               VALUES (%s, %s, %s, %s)""",
+            (row['species_id'], row['version_name'], row['content'], embedding)
         )
     print(f"Loaded {len(data)} flavor texts.")
 
@@ -137,11 +144,13 @@ def load_items(cursor):
 def load_abilities(cursor):
     data = load_json("abilities.json")
     for row in data:
+        embedding = row.get('embedding')
         cursor.execute(
-            """INSERT INTO abilities (id, name, effect_text) 
-               VALUES (%s, %s, %s) 
-               ON CONFLICT (id) DO UPDATE SET name = EXCLUDED.name, effect_text = EXCLUDED.effect_text""",
-            (row['id'], row['name'], row['effect_text'])
+            """INSERT INTO abilities (id, name, effect_text, embedding) 
+               VALUES (%s, %s, %s, %s) 
+               ON CONFLICT (id) DO UPDATE SET 
+               name = EXCLUDED.name, effect_text = EXCLUDED.effect_text, embedding = EXCLUDED.embedding""",
+            (row['id'], row['name'], row['effect_text'], embedding)
         )
     print(f"Loaded {len(data)} abilities.")
 
@@ -170,11 +179,16 @@ def load_natures(cursor):
 def load_moves(cursor):
     data = load_json("moves.json")
     for row in data:
+        embedding = row.get('embedding')
         cursor.execute(
-            """INSERT INTO moves (id, name, type_id, power, accuracy, damage_class, effect_text) 
-               VALUES (%s, %s, %s, %s, %s, %s, %s) 
-               ON CONFLICT (id) DO UPDATE SET name = EXCLUDED.name, type_id = EXCLUDED.type_id, power = EXCLUDED.power, accuracy = EXCLUDED.accuracy, damage_class = EXCLUDED.damage_class, effect_text = EXCLUDED.effect_text""",
-            (row['id'], row['name'], row['type_id'], row['power'], row['accuracy'], row['damage_class'], row['effect_text'])
+            """INSERT INTO moves (id, name, type_id, power, accuracy, damage_class, effect_text, embedding) 
+               VALUES (%s, %s, %s, %s, %s, %s, %s, %s) 
+               ON CONFLICT (id) DO UPDATE SET 
+               name = EXCLUDED.name, type_id = EXCLUDED.type_id, power = EXCLUDED.power, 
+               accuracy = EXCLUDED.accuracy, damage_class = EXCLUDED.damage_class, 
+               effect_text = EXCLUDED.effect_text, embedding = EXCLUDED.embedding""",
+            (row['id'], row['name'], row['type_id'], row['power'], row['accuracy'], 
+             row['damage_class'], row['effect_text'], embedding)
         )
     print(f"Loaded {len(data)} moves.")
 
@@ -196,6 +210,19 @@ def load_evolutions(cursor):
         )
         loaded_count += 1
     print(f"Loaded {loaded_count} evolutions.")
+
+def load_pokemon_knowledge(cursor):
+    data = load_json("pokemon_knowledge.json")
+    for row in data:
+        embedding = row.get('embedding')
+        cursor.execute(
+            """INSERT INTO pokemon_knowledge (pokemon_id, content, embedding) 
+               VALUES (%s, %s, %s) 
+               ON CONFLICT (pokemon_id) DO UPDATE SET 
+               content = EXCLUDED.content, embedding = EXCLUDED.embedding""",
+            (row['pokemon_id'], row['content'], embedding)
+        )
+    print(f"Loaded {len(data)} pokemon knowledge profiles.")
 
 if __name__ == "__main__":
     try:
@@ -221,6 +248,7 @@ if __name__ == "__main__":
         load_abilities(cursor)
         load_pokemon_abilities(cursor)
         load_natures(cursor)
+        load_pokemon_knowledge(cursor)
         cursor.execute("TRUNCATE TABLE evolutions RESTART IDENTITY;")
         load_evolutions(cursor)
 
