@@ -9223,5 +9223,95 @@
     "sp_attack": 88,
     "sp_defense": 88,
     "speed": 88
+  },
+  {
+    "pokemon_id": 10001,
+    "hp": 50,
+    "attack": 180,
+    "defense": 20,
+    "sp_attack": 180,
+    "sp_defense": 20,
+    "speed": 150
+  },
+  {
+    "pokemon_id": 10002,
+    "hp": 50,
+    "attack": 70,
+    "defense": 160,
+    "sp_attack": 70,
+    "sp_defense": 160,
+    "speed": 90
+  },
+  {
+    "pokemon_id": 10003,
+    "hp": 50,
+    "attack": 95,
+    "defense": 90,
+    "sp_attack": 95,
+    "sp_defense": 90,
+    "speed": 180
+  },
+  {
+    "pokemon_id": 10004,
+    "hp": 60,
+    "attack": 79,
+    "defense": 105,
+    "sp_attack": 59,
+    "sp_defense": 85,
+    "speed": 36
+  },
+  {
+    "pokemon_id": 10005,
+    "hp": 60,
+    "attack": 69,
+    "defense": 95,
+    "sp_attack": 69,
+    "sp_defense": 95,
+    "speed": 36
+  },
+  {
+    "pokemon_id": 10006,
+    "hp": 100,
+    "attack": 103,
+    "defense": 75,
+    "sp_attack": 120,
+    "sp_defense": 75,
+    "speed": 127
+  },
+  {
+    "pokemon_id": 10007,
+    "hp": 150,
+    "attack": 120,
+    "defense": 100,
+    "sp_attack": 120,
+    "sp_defense": 100,
+    "speed": 90
+  },
+  {
+    "pokemon_id": 10008,
+    "hp": 50,
+    "attack": 65,
+    "defense": 107,
+    "sp_attack": 105,
+    "sp_defense": 107,
+    "speed": 86
+  },
+  {
+    "pokemon_id": 10009,
+    "hp": 50,
+    "attack": 65,
+    "defense": 107,
+    "sp_attack": 105,
+    "sp_defense": 107,
+    "speed": 86
+  },
+  {
+    "pokemon_id": 10010,
+    "hp": 50,
+    "attack": 65,
+    "defense": 107,
+    "sp_attack": 105,
+    "sp_defense": 107,
+    "speed": 86
   }
 ]

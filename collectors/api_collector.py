@@ -89,6 +89,14 @@ def collect_natures(start_id, end_id):
             save_json(nature_data, f"nature_{i}.json")
         time.sleep(0.1)
 
+def collect_variants(start_id, end_id):
+    print("Collecting Pokemon Variants (Regional forms, Mega, etc)...")
+    for i in tqdm(range(start_id, end_id + 1)):
+        poke_data = fetch_data(f"pokemon/{i}")
+        if poke_data:
+            save_json(poke_data, f"pokemon_{i}.json")
+        time.sleep(0.1)
+
 if __name__ == "__main__":
     ensure_dir()
     # 전체 포켓몬 수집 (약 1025마리)
@@ -105,4 +113,6 @@ if __name__ == "__main__":
     collect_abilities(1, 307)
     # 모든 성격 수집 (25개)
     collect_natures(1, 25)
-    print("All Generations Collection Complete.")
+    # 리전폼 및 특수 폼 수집 (ID 10001 ~ 10277)
+    collect_variants(10001, 10277)
+    print("All Generations & Variants Collection Complete.")

@@ -11,7 +11,9 @@ CREATE TABLE IF NOT EXISTS pokemon (
     height INTEGER,
     weight INTEGER,
     base_exp INTEGER,
-    image_url VARCHAR(255)
+    image_url VARCHAR(255),
+    cry_url VARCHAR(255),
+    is_default BOOLEAN DEFAULT TRUE
 );
 
 CREATE TABLE IF NOT EXISTS pokemon_stats (
@@ -139,4 +141,16 @@ CREATE TABLE IF NOT EXISTS pokemon_knowledge (
     pokemon_id INTEGER PRIMARY KEY REFERENCES pokemon(id) ON DELETE CASCADE,
     content TEXT NOT NULL,
     embedding VECTOR(1536)
+);
+
+-- ==========================================
+-- 7. 기술 습득 매핑 (Pokemon-Moves)
+-- ==========================================
+
+CREATE TABLE IF NOT EXISTS pokemon_moves (
+    pokemon_id INTEGER REFERENCES pokemon(id) ON DELETE CASCADE,
+    move_id INTEGER REFERENCES moves(id) ON DELETE CASCADE,
+    learn_method VARCHAR(50), -- level-up, machine, egg, tutor
+    level_learned_at INTEGER,
+    PRIMARY KEY (pokemon_id, move_id, learn_method, level_learned_at)
 );

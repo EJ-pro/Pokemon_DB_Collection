@@ -83,22 +83,34 @@ def process_pokemon():
     species_list = []
     flavor_texts_list = []
     pokemon_abilities_list = []
+    pokemon_moves_list = []
     
-    for i in range(1, 1026):
+    # Range covers base pokemon (1-1025) and variants (10001-10277)
+    ranges = list(range(1, 1026)) + list(range(10001, 10278))
+    
+    for i in ranges:
         p_data = load_json(os.path.join(RAW_DATA_DIR, f"pokemon_{i}.json"))
-        s_data = load_json(os.path.join(RAW_DATA_DIR, f"species_{i}.json"))
+        if not p_data: continue
         
-        if not p_data or not s_data: continue
+        # species data only exists for base pokemon in our current collection
+        # For variants, we need to link back to their base species ID
+        species_id = int(p_data['species']['url'].split('/')[-2])
+        s_data = load_json(os.path.join(RAW_DATA_DIR, f"species_{species_id}.json"))
+        
+        if not s_data: continue
         
         # Korean name extraction
+        # For variants, use the variety name if possible, or fallback to species Korean name
         name_ko = get_korean_name(s_data.get('names', []), p_data['name'])
         
         # Image URL extraction
-        # Priority: official-artwork > front_default
         sprites = p_data.get('sprites', {})
         image_url = sprites.get('other', {}).get('official-artwork', {}).get('front_default')
         if not image_url:
             image_url = sprites.get('front_default')
+            
+        # Cry URL extraction
+        cry_url = p_data.get('cries', {}).get('latest')
 
         # 1. Pokemon
         pokemon_list.append({
@@ -107,7 +119,9 @@ def process_pokemon():
             'height': p_data['height'],
             'weight': p_data['weight'],
             'base_exp': p_data['base_experience'],
-            'image_url': image_url
+            'image_url': image_url,
+            'cry_url': cry_url,
+            'is_default': p_data['is_default']
         })
         
         # 2. Pokemon Stats
@@ -131,25 +145,24 @@ def process_pokemon():
                 'slot': t['slot']
             })
             
-        # 4. Species
-        # Generation: https://pokeapi.co/api/v2/generation/1/
-        gen_id = int(s_data['generation']['url'].split('/')[-2])
-        species_id = s_data['id']
-        species_list.append({
-            'id': species_id,
-            'pokemon_id': p_data['id'],
-            'generation': gen_id,
-            'capture_rate': s_data['capture_rate']
-        })
-        
-        # 5. Flavor Texts
-        ko_flavors = get_korean_flavor_texts(s_data.get('flavor_text_entries', []))
-        for f in ko_flavors:
-            flavor_texts_list.append({
-                'species_id': species_id,
-                'version_name': f['version_name'],
-                'content': f['content']
+        # 4. Species (Only for base pokemon to avoid duplicates in species table)
+        if i <= 1025:
+            gen_id = int(s_data['generation']['url'].split('/')[-2])
+            species_list.append({
+                'id': species_id,
+                'pokemon_id': p_data['id'],
+                'generation': gen_id,
+                'capture_rate': s_data['capture_rate']
             })
+            
+            # 5. Flavor Texts (Only for base species)
+            ko_flavors = get_korean_flavor_texts(s_data.get('flavor_text_entries', []))
+            for f in ko_flavors:
+                flavor_texts_list.append({
+                    'species_id': species_id,
+                    'version_name': f['version_name'],
+                    'content': f['content']
+                })
             
         # 6. Pokemon Abilities
         for a in p_data.get('abilities', []):
@@ -160,6 +173,25 @@ def process_pokemon():
                 'is_hidden': a['is_hidden'],
                 'slot': a['slot']
             })
+            
+        # 7. Pokemon Moves Mapping
+        for m in p_data.get('moves', []):
+            move_id = int(m['move']['url'].split('/')[-2])
+            # Only take the latest or most relevant version group detail for simplicity
+            # For now, let's take all unique learn methods to be comprehensive
+            seen_methods = set()
+            for detail in m.get('version_group_details', []):
+                method = detail['move_learn_method']['name']
+                level = detail['level_learned_at']
+                key = f"{method}:{level}"
+                if key not in seen_methods:
+                    seen_methods.add(key)
+                    pokemon_moves_list.append({
+                        'pokemon_id': p_data['id'],
+                        'move_id': move_id,
+                        'learn_method': method,
+                        'level_learned_at': level
+                    })
 
     save_json(pokemon_list, "pokemon.json")
     save_json(stats_list, "pokemon_stats.json")
@@ -167,6 +199,7 @@ def process_pokemon():
     save_json(species_list, "species.json")
     save_json(flavor_texts_list, "flavor_text.json")
     save_json(pokemon_abilities_list, "pokemon_abilities.json")
+    save_json(pokemon_moves_list, "pokemon_moves.json")
 
 def process_moves():
     moves_list = []

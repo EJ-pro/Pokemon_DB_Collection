@@ -7753,5 +7753,90 @@
     "pokemon_id": 1025,
     "type_id": 8,
     "slot": 2
+  },
+  {
+    "pokemon_id": 10001,
+    "type_id": 14,
+    "slot": 1
+  },
+  {
+    "pokemon_id": 10002,
+    "type_id": 14,
+    "slot": 1
+  },
+  {
+    "pokemon_id": 10003,
+    "type_id": 14,
+    "slot": 1
+  },
+  {
+    "pokemon_id": 10004,
+    "type_id": 7,
+    "slot": 1
+  },
+  {
+    "pokemon_id": 10004,
+    "type_id": 5,
+    "slot": 2
+  },
+  {
+    "pokemon_id": 10005,
+    "type_id": 7,
+    "slot": 1
+  },
+  {
+    "pokemon_id": 10005,
+    "type_id": 9,
+    "slot": 2
+  },
+  {
+    "pokemon_id": 10006,
+    "type_id": 12,
+    "slot": 1
+  },
+  {
+    "pokemon_id": 10006,
+    "type_id": 3,
+    "slot": 2
+  },
+  {
+    "pokemon_id": 10007,
+    "type_id": 8,
+    "slot": 1
+  },
+  {
+    "pokemon_id": 10007,
+    "type_id": 16,
+    "slot": 2
+  },
+  {
+    "pokemon_id": 10008,
+    "type_id": 13,
+    "slot": 1
+  },
+  {
+    "pokemon_id": 10008,
+    "type_id": 10,
+    "slot": 2
+  },
+  {
+    "pokemon_id": 10009,
+    "type_id": 13,
+    "slot": 1
+  },
+  {
+    "pokemon_id": 10009,
+    "type_id": 11,
+    "slot": 2
+  },
+  {
+    "pokemon_id": 10010,
+    "type_id": 13,
+    "slot": 1
+  },
+  {
+    "pokemon_id": 10010,
+    "type_id": 15,
+    "slot": 2
   }
 ]
