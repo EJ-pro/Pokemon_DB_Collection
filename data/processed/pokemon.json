@@ -10348,5 +10348,2675 @@
     "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10010.png",
     "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10010.ogg",
     "is_default": false
+  },
+  {
+    "id": 10011,
+    "name": "로토무",
+    "height": 3,
+    "weight": 3,
+    "base_exp": 182,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10011.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10011.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10012,
+    "name": "로토무",
+    "height": 3,
+    "weight": 3,
+    "base_exp": 182,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10012.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10012.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10013,
+    "name": "캐스퐁",
+    "height": 3,
+    "weight": 8,
+    "base_exp": 147,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10013.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10013.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10014,
+    "name": "캐스퐁",
+    "height": 3,
+    "weight": 8,
+    "base_exp": 147,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10014.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10014.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10015,
+    "name": "캐스퐁",
+    "height": 3,
+    "weight": 8,
+    "base_exp": 147,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10015.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10015.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10016,
+    "name": "배쓰나이",
+    "height": 10,
+    "weight": 180,
+    "base_exp": 161,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10016.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10016.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10017,
+    "name": "불비달마",
+    "height": 13,
+    "weight": 929,
+    "base_exp": 189,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10017.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10017.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10018,
+    "name": "메로엣타",
+    "height": 6,
+    "weight": 65,
+    "base_exp": 270,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10018.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10018.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10019,
+    "name": "토네로스",
+    "height": 14,
+    "weight": 630,
+    "base_exp": 290,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10019.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10019.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10020,
+    "name": "볼트로스",
+    "height": 30,
+    "weight": 610,
+    "base_exp": 290,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10020.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10020.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10021,
+    "name": "랜드로스",
+    "height": 13,
+    "weight": 680,
+    "base_exp": 300,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10021.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10021.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10022,
+    "name": "큐레무",
+    "height": 33,
+    "weight": 3250,
+    "base_exp": 350,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10022.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10022.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10023,
+    "name": "큐레무",
+    "height": 36,
+    "weight": 3250,
+    "base_exp": 350,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10023.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10023.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10024,
+    "name": "케르디오",
+    "height": 14,
+    "weight": 485,
+    "base_exp": 290,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10024.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10024.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10025,
+    "name": "냐오닉스",
+    "height": 6,
+    "weight": 85,
+    "base_exp": 163,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10025.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10025.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10026,
+    "name": "킬가르도",
+    "height": 17,
+    "weight": 530,
+    "base_exp": 250,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10026.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10026.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10027,
+    "name": "호바귀",
+    "height": 3,
+    "weight": 35,
+    "base_exp": 67,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10027.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10027.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10028,
+    "name": "호바귀",
+    "height": 5,
+    "weight": 75,
+    "base_exp": 67,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10028.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10028.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10029,
+    "name": "호바귀",
+    "height": 8,
+    "weight": 150,
+    "base_exp": 67,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10029.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10029.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10030,
+    "name": "펌킨인",
+    "height": 7,
+    "weight": 95,
+    "base_exp": 173,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10030.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10030.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10031,
+    "name": "펌킨인",
+    "height": 11,
+    "weight": 140,
+    "base_exp": 173,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10031.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10031.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10032,
+    "name": "펌킨인",
+    "height": 17,
+    "weight": 390,
+    "base_exp": 173,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10032.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10032.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10033,
+    "name": "이상해꽃",
+    "height": 24,
+    "weight": 1555,
+    "base_exp": 281,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10033.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10033.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10034,
+    "name": "리자몽",
+    "height": 17,
+    "weight": 1105,
+    "base_exp": 285,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10034.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10034.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10035,
+    "name": "리자몽",
+    "height": 17,
+    "weight": 1005,
+    "base_exp": 285,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10035.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10035.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10036,
+    "name": "거북왕",
+    "height": 16,
+    "weight": 1011,
+    "base_exp": 284,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10036.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10036.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10037,
+    "name": "후딘",
+    "height": 12,
+    "weight": 480,
+    "base_exp": 270,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10037.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10037.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10038,
+    "name": "팬텀",
+    "height": 14,
+    "weight": 405,
+    "base_exp": 270,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10038.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10038.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10039,
+    "name": "캥카",
+    "height": 22,
+    "weight": 1000,
+    "base_exp": 207,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10039.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10039.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10040,
+    "name": "쁘사이저",
+    "height": 17,
+    "weight": 590,
+    "base_exp": 210,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10040.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10040.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10041,
+    "name": "갸라도스",
+    "height": 65,
+    "weight": 3050,
+    "base_exp": 224,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10041.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10041.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10042,
+    "name": "프테라",
+    "height": 21,
+    "weight": 790,
+    "base_exp": 215,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10042.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10042.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10043,
+    "name": "뮤츠",
+    "height": 23,
+    "weight": 1270,
+    "base_exp": 351,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10043.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10043.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10044,
+    "name": "뮤츠",
+    "height": 15,
+    "weight": 330,
+    "base_exp": 351,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10044.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10044.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10045,
+    "name": "전룡",
+    "height": 14,
+    "weight": 615,
+    "base_exp": 275,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10045.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10045.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10046,
+    "name": "핫삼",
+    "height": 20,
+    "weight": 1250,
+    "base_exp": 210,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10046.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10046.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10047,
+    "name": "헤라크로스",
+    "height": 17,
+    "weight": 625,
+    "base_exp": 210,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10047.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10047.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10048,
+    "name": "헬가",
+    "height": 19,
+    "weight": 495,
+    "base_exp": 210,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10048.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10048.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10049,
+    "name": "마기라스",
+    "height": 25,
+    "weight": 2550,
+    "base_exp": 315,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10049.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10049.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10050,
+    "name": "번치코",
+    "height": 19,
+    "weight": 520,
+    "base_exp": 284,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10050.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10050.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10051,
+    "name": "가디안",
+    "height": 16,
+    "weight": 484,
+    "base_exp": 278,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10051.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10051.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10052,
+    "name": "입치트",
+    "height": 10,
+    "weight": 235,
+    "base_exp": 168,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10052.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10052.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10053,
+    "name": "보스로라",
+    "height": 22,
+    "weight": 3950,
+    "base_exp": 284,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10053.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10053.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10054,
+    "name": "요가램",
+    "height": 13,
+    "weight": 315,
+    "base_exp": 179,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10054.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10054.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10055,
+    "name": "썬더볼트",
+    "height": 18,
+    "weight": 440,
+    "base_exp": 201,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10055.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10055.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10056,
+    "name": "다크펫",
+    "height": 12,
+    "weight": 130,
+    "base_exp": 194,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10056.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10056.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10057,
+    "name": "앱솔",
+    "height": 12,
+    "weight": 490,
+    "base_exp": 198,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10057.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10057.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10058,
+    "name": "한카리아스",
+    "height": 19,
+    "weight": 950,
+    "base_exp": 315,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10058.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10058.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10059,
+    "name": "루카리오",
+    "height": 13,
+    "weight": 575,
+    "base_exp": 219,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10059.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10059.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10060,
+    "name": "눈설왕",
+    "height": 27,
+    "weight": 1850,
+    "base_exp": 208,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10060.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10060.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10061,
+    "name": "플라엣테",
+    "height": 2,
+    "weight": 9,
+    "base_exp": 243,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10061.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10061.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10062,
+    "name": "라티아스",
+    "height": 18,
+    "weight": 520,
+    "base_exp": 315,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10062.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10062.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10063,
+    "name": "라티오스",
+    "height": 23,
+    "weight": 700,
+    "base_exp": 315,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10063.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10063.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10064,
+    "name": "대짱이",
+    "height": 19,
+    "weight": 1020,
+    "base_exp": 286,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10064.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10064.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10065,
+    "name": "나무킹",
+    "height": 19,
+    "weight": 552,
+    "base_exp": 284,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10065.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10065.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10066,
+    "name": "깜까미",
+    "height": 5,
+    "weight": 1610,
+    "base_exp": 168,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10066.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10066.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10067,
+    "name": "파비코리",
+    "height": 15,
+    "weight": 206,
+    "base_exp": 207,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10067.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10067.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10068,
+    "name": "엘레이드",
+    "height": 16,
+    "weight": 564,
+    "base_exp": 278,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10068.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10068.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10069,
+    "name": "다부니",
+    "height": 15,
+    "weight": 320,
+    "base_exp": 425,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10069.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10069.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10070,
+    "name": "샤크니아",
+    "height": 25,
+    "weight": 1303,
+    "base_exp": 196,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10070.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10070.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10071,
+    "name": "야도란",
+    "height": 20,
+    "weight": 1200,
+    "base_exp": 207,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10071.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10071.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10072,
+    "name": "강철톤",
+    "height": 105,
+    "weight": 7400,
+    "base_exp": 214,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10072.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10072.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10073,
+    "name": "피죤투",
+    "height": 22,
+    "weight": 505,
+    "base_exp": 261,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10073.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10073.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10074,
+    "name": "얼음귀신",
+    "height": 21,
+    "weight": 3502,
+    "base_exp": 203,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10074.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10074.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10075,
+    "name": "디안시",
+    "height": 11,
+    "weight": 278,
+    "base_exp": 315,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10075.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10075.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10076,
+    "name": "메타그로스",
+    "height": 25,
+    "weight": 9429,
+    "base_exp": 315,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10076.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10076.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10077,
+    "name": "가이오가",
+    "height": 98,
+    "weight": 4300,
+    "base_exp": 347,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10077.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10077.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10078,
+    "name": "그란돈",
+    "height": 50,
+    "weight": 9997,
+    "base_exp": 347,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10078.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10078.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10079,
+    "name": "레쿠쟈",
+    "height": 108,
+    "weight": 3920,
+    "base_exp": 351,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10079.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10079.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10080,
+    "name": "피카츄",
+    "height": 4,
+    "weight": 60,
+    "base_exp": 112,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10080.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10080.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10081,
+    "name": "피카츄",
+    "height": 4,
+    "weight": 60,
+    "base_exp": 112,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10081.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10081.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10082,
+    "name": "피카츄",
+    "height": 4,
+    "weight": 60,
+    "base_exp": 112,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10082.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10082.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10083,
+    "name": "피카츄",
+    "height": 4,
+    "weight": 60,
+    "base_exp": 112,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10083.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10083.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10084,
+    "name": "피카츄",
+    "height": 4,
+    "weight": 60,
+    "base_exp": 112,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10084.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10084.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10085,
+    "name": "피카츄",
+    "height": 4,
+    "weight": 60,
+    "base_exp": 112,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10085.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10085.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10086,
+    "name": "후파",
+    "height": 65,
+    "weight": 4900,
+    "base_exp": 306,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10086.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10086.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10087,
+    "name": "폭타",
+    "height": 25,
+    "weight": 3205,
+    "base_exp": 196,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10087.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10087.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10088,
+    "name": "이어롭",
+    "height": 13,
+    "weight": 283,
+    "base_exp": 203,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10088.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10088.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10089,
+    "name": "보만다",
+    "height": 18,
+    "weight": 1126,
+    "base_exp": 315,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10089.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10089.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10090,
+    "name": "독침붕",
+    "height": 14,
+    "weight": 405,
+    "base_exp": 223,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10090.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10090.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10091,
+    "name": "꼬렛",
+    "height": 3,
+    "weight": 38,
+    "base_exp": 51,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10091.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10091.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10092,
+    "name": "레트라",
+    "height": 7,
+    "weight": 255,
+    "base_exp": 145,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10092.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10092.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10093,
+    "name": "레트라",
+    "height": 14,
+    "weight": 1050,
+    "base_exp": 145,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10093.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10093.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10094,
+    "name": "피카츄",
+    "height": 4,
+    "weight": 60,
+    "base_exp": 112,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10094.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10094.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10095,
+    "name": "피카츄",
+    "height": 4,
+    "weight": 60,
+    "base_exp": 112,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10095.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10095.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10096,
+    "name": "피카츄",
+    "height": 4,
+    "weight": 60,
+    "base_exp": 112,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10096.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10096.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10097,
+    "name": "피카츄",
+    "height": 4,
+    "weight": 60,
+    "base_exp": 112,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10097.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10097.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10098,
+    "name": "피카츄",
+    "height": 4,
+    "weight": 60,
+    "base_exp": 112,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10098.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10098.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10099,
+    "name": "피카츄",
+    "height": 4,
+    "weight": 60,
+    "base_exp": 112,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10099.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10099.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10100,
+    "name": "라이츄",
+    "height": 7,
+    "weight": 210,
+    "base_exp": 243,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10100.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10100.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10101,
+    "name": "모래두지",
+    "height": 7,
+    "weight": 400,
+    "base_exp": 60,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10101.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10101.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10102,
+    "name": "고지",
+    "height": 12,
+    "weight": 550,
+    "base_exp": 158,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10102.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10102.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10103,
+    "name": "식스테일",
+    "height": 6,
+    "weight": 99,
+    "base_exp": 60,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10103.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10103.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10104,
+    "name": "나인테일",
+    "height": 11,
+    "weight": 199,
+    "base_exp": 177,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10104.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10104.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10105,
+    "name": "디그다",
+    "height": 2,
+    "weight": 10,
+    "base_exp": 53,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10105.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10105.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10106,
+    "name": "닥트리오",
+    "height": 7,
+    "weight": 666,
+    "base_exp": 149,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10106.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10106.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10107,
+    "name": "나옹",
+    "height": 4,
+    "weight": 42,
+    "base_exp": 58,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10107.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10107.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10108,
+    "name": "페르시온",
+    "height": 11,
+    "weight": 330,
+    "base_exp": 154,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10108.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10108.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10109,
+    "name": "꼬마돌",
+    "height": 4,
+    "weight": 203,
+    "base_exp": 60,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10109.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10109.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10110,
+    "name": "데구리",
+    "height": 10,
+    "weight": 1100,
+    "base_exp": 137,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10110.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10110.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10111,
+    "name": "딱구리",
+    "height": 17,
+    "weight": 3160,
+    "base_exp": 223,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10111.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10111.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10112,
+    "name": "질퍽이",
+    "height": 7,
+    "weight": 420,
+    "base_exp": 65,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10112.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10112.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10113,
+    "name": "질뻐기",
+    "height": 10,
+    "weight": 520,
+    "base_exp": 175,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10113.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10113.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10114,
+    "name": "나시",
+    "height": 109,
+    "weight": 4156,
+    "base_exp": 186,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10114.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10114.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10115,
+    "name": "텅구리",
+    "height": 10,
+    "weight": 340,
+    "base_exp": 149,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10115.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10115.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10116,
+    "name": "개굴닌자",
+    "height": 15,
+    "weight": 400,
+    "base_exp": 239,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10116.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10116.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10117,
+    "name": "개굴닌자",
+    "height": 15,
+    "weight": 400,
+    "base_exp": 288,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10117.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10117.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10118,
+    "name": "지가르데",
+    "height": 12,
+    "weight": 335,
+    "base_exp": 243,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10118.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10118.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10119,
+    "name": "지가르데",
+    "height": 50,
+    "weight": 3050,
+    "base_exp": 300,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10119.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10119.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10120,
+    "name": "지가르데",
+    "height": 45,
+    "weight": 6100,
+    "base_exp": 354,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10120.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10120.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10121,
+    "name": "형사구스",
+    "height": 14,
+    "weight": 600,
+    "base_exp": 146,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10121.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10121.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10122,
+    "name": "투구뿌논",
+    "height": 26,
+    "weight": 1475,
+    "base_exp": 225,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10122.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10122.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10123,
+    "name": "춤추새",
+    "height": 6,
+    "weight": 34,
+    "base_exp": 167,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10123.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10123.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10124,
+    "name": "춤추새",
+    "height": 6,
+    "weight": 34,
+    "base_exp": 167,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10124.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10124.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10125,
+    "name": "춤추새",
+    "height": 6,
+    "weight": 34,
+    "base_exp": 167,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10125.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10125.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10126,
+    "name": "루가루암",
+    "height": 11,
+    "weight": 250,
+    "base_exp": 170,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10126.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10126.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10127,
+    "name": "약어리",
+    "height": 82,
+    "weight": 786,
+    "base_exp": 217,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10127.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10127.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10128,
+    "name": "라란티스",
+    "height": 15,
+    "weight": 580,
+    "base_exp": 168,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10128.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10128.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10129,
+    "name": "염뉴트",
+    "height": 21,
+    "weight": 810,
+    "base_exp": 168,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10129.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10129.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10130,
+    "name": "메테노",
+    "height": 3,
+    "weight": 400,
+    "base_exp": 154,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10130.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10130.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10131,
+    "name": "메테노",
+    "height": 3,
+    "weight": 400,
+    "base_exp": 154,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10131.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10131.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10132,
+    "name": "메테노",
+    "height": 3,
+    "weight": 400,
+    "base_exp": 154,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10132.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10132.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10133,
+    "name": "메테노",
+    "height": 3,
+    "weight": 400,
+    "base_exp": 154,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10133.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10133.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10134,
+    "name": "메테노",
+    "height": 3,
+    "weight": 400,
+    "base_exp": 154,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10134.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10134.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10135,
+    "name": "메테노",
+    "height": 3,
+    "weight": 400,
+    "base_exp": 154,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10135.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10135.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10136,
+    "name": "메테노",
+    "height": 3,
+    "weight": 3,
+    "base_exp": 175,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10136.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10136.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10137,
+    "name": "메테노",
+    "height": 3,
+    "weight": 3,
+    "base_exp": 175,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10137.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10137.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10138,
+    "name": "메테노",
+    "height": 3,
+    "weight": 3,
+    "base_exp": 175,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10138.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10138.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10139,
+    "name": "메테노",
+    "height": 3,
+    "weight": 3,
+    "base_exp": 175,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10139.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10139.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10140,
+    "name": "메테노",
+    "height": 3,
+    "weight": 3,
+    "base_exp": 175,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10140.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10140.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10141,
+    "name": "메테노",
+    "height": 3,
+    "weight": 3,
+    "base_exp": 175,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10141.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10141.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10142,
+    "name": "메테노",
+    "height": 3,
+    "weight": 3,
+    "base_exp": 175,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10142.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10142.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10143,
+    "name": "따라큐",
+    "height": 2,
+    "weight": 7,
+    "base_exp": 167,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10143.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10143.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10144,
+    "name": "따라큐",
+    "height": 4,
+    "weight": 28,
+    "base_exp": 167,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10144.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10144.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10145,
+    "name": "따라큐",
+    "height": 4,
+    "weight": 28,
+    "base_exp": 167,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10145.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10145.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10146,
+    "name": "짜랑고우거",
+    "height": 24,
+    "weight": 2075,
+    "base_exp": 270,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10146.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10146.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10147,
+    "name": "마기아나",
+    "height": 10,
+    "weight": 805,
+    "base_exp": 300,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10147.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10147.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10148,
+    "name": "피카츄",
+    "height": 4,
+    "weight": 60,
+    "base_exp": 112,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10148.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10148.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10149,
+    "name": "텅구리",
+    "height": 17,
+    "weight": 980,
+    "base_exp": 149,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10149.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10149.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10150,
+    "name": "에리본",
+    "height": 4,
+    "weight": 20,
+    "base_exp": 162,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10150.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10150.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10151,
+    "name": "암멍이",
+    "height": 5,
+    "weight": 92,
+    "base_exp": 56,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10151.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10151.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10152,
+    "name": "루가루암",
+    "height": 8,
+    "weight": 250,
+    "base_exp": 170,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10152.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10152.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10153,
+    "name": "깨비물거미",
+    "height": 31,
+    "weight": 2175,
+    "base_exp": 159,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10153.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10153.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10154,
+    "name": "토게데마루",
+    "height": 6,
+    "weight": 130,
+    "base_exp": 152,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10154.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10154.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10155,
+    "name": "네크로즈마",
+    "height": 38,
+    "weight": 4600,
+    "base_exp": 340,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10155.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10155.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10156,
+    "name": "네크로즈마",
+    "height": 42,
+    "weight": 3500,
+    "base_exp": 340,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10156.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10156.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10157,
+    "name": "네크로즈마",
+    "height": 75,
+    "weight": 2300,
+    "base_exp": 339,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10157.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10157.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10158,
+    "name": "피카츄",
+    "height": 4,
+    "weight": 60,
+    "base_exp": 86,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10158.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10158.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10159,
+    "name": "이브이",
+    "height": 3,
+    "weight": 65,
+    "base_exp": 87,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10159.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10159.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10160,
+    "name": "피카츄",
+    "height": 4,
+    "weight": 60,
+    "base_exp": 112,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10160.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10160.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10161,
+    "name": "나옹",
+    "height": 4,
+    "weight": 75,
+    "base_exp": 58,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10161.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10161.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10162,
+    "name": "포니타",
+    "height": 8,
+    "weight": 240,
+    "base_exp": 82,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10162.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10162.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10163,
+    "name": "날쌩마",
+    "height": 17,
+    "weight": 800,
+    "base_exp": 175,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10163.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10163.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10164,
+    "name": "야돈",
+    "height": 12,
+    "weight": 360,
+    "base_exp": 63,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10164.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10164.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10165,
+    "name": "야도란",
+    "height": 16,
+    "weight": 705,
+    "base_exp": 172,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10165.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10165.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10166,
+    "name": "파오리",
+    "height": 8,
+    "weight": 420,
+    "base_exp": 132,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10166.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10166.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10167,
+    "name": "또도가스",
+    "height": 30,
+    "weight": 160,
+    "base_exp": 172,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10167.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10167.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10168,
+    "name": "마임맨",
+    "height": 14,
+    "weight": 568,
+    "base_exp": 161,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10168.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10168.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10169,
+    "name": "프리져",
+    "height": 17,
+    "weight": 509,
+    "base_exp": 290,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10169.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10169.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10170,
+    "name": "썬더",
+    "height": 16,
+    "weight": 582,
+    "base_exp": 290,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10170.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10170.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10171,
+    "name": "파이어",
+    "height": 20,
+    "weight": 660,
+    "base_exp": 290,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10171.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10171.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10172,
+    "name": "야도킹",
+    "height": 18,
+    "weight": 795,
+    "base_exp": 172,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10172.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10172.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10173,
+    "name": "코산호",
+    "height": 6,
+    "weight": 5,
+    "base_exp": 144,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10173.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10173.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10174,
+    "name": "지그제구리",
+    "height": 4,
+    "weight": 175,
+    "base_exp": 56,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10174.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10174.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10175,
+    "name": "직구리",
+    "height": 5,
+    "weight": 325,
+    "base_exp": 147,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10175.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10175.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10176,
+    "name": "달막화",
+    "height": 7,
+    "weight": 400,
+    "base_exp": 63,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10176.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10176.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10177,
+    "name": "불비달마",
+    "height": 17,
+    "weight": 1200,
+    "base_exp": 168,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10177.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10177.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10178,
+    "name": "불비달마",
+    "height": 17,
+    "weight": 1200,
+    "base_exp": 189,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10178.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10178.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10179,
+    "name": "데스마스",
+    "height": 5,
+    "weight": 15,
+    "base_exp": 61,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10179.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10179.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10180,
+    "name": "메더",
+    "height": 7,
+    "weight": 205,
+    "base_exp": 165,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10180.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10180.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10181,
+    "name": "지가르데",
+    "height": 12,
+    "weight": 335,
+    "base_exp": 243,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10181.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10181.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10182,
+    "name": "윽우지",
+    "height": 8,
+    "weight": 180,
+    "base_exp": 166,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10182.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10182.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10183,
+    "name": "윽우지",
+    "height": 8,
+    "weight": 180,
+    "base_exp": 166,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10183.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10183.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10184,
+    "name": "스트린더",
+    "height": 16,
+    "weight": 400,
+    "base_exp": 176,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10184.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10184.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10185,
+    "name": "빙큐보",
+    "height": 14,
+    "weight": 890,
+    "base_exp": 165,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10185.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10185.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10186,
+    "name": "에써르",
+    "height": 9,
+    "weight": 280,
+    "base_exp": 166,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10186.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10186.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10187,
+    "name": "모르페코",
+    "height": 3,
+    "weight": 30,
+    "base_exp": 153,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10187.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10187.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10188,
+    "name": "자시안",
+    "height": 28,
+    "weight": 3550,
+    "base_exp": 360,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10188.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10188.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10189,
+    "name": "자마젠타",
+    "height": 29,
+    "weight": 7850,
+    "base_exp": 360,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10189.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10189.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10190,
+    "name": "무한다이노",
+    "height": 1000,
+    "weight": 0,
+    "base_exp": 563,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10190.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10190.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10191,
+    "name": "우라오스",
+    "height": 19,
+    "weight": 1050,
+    "base_exp": 275,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10191.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10191.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10192,
+    "name": "자루도",
+    "height": 18,
+    "weight": 700,
+    "base_exp": 300,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10192.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10192.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10193,
+    "name": "버드렉스",
+    "height": 24,
+    "weight": 8091,
+    "base_exp": 340,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10193.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10193.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10194,
+    "name": "버드렉스",
+    "height": 24,
+    "weight": 536,
+    "base_exp": 340,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10194.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10194.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10195,
+    "name": "이상해꽃",
+    "height": 240,
+    "weight": 10000,
+    "base_exp": 236,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10195.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10195.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10196,
+    "name": "리자몽",
+    "height": 280,
+    "weight": 10000,
+    "base_exp": 240,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10196.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10196.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10197,
+    "name": "거북왕",
+    "height": 250,
+    "weight": 10000,
+    "base_exp": 239,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10197.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10197.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10198,
+    "name": "버터플",
+    "height": 170,
+    "weight": 10000,
+    "base_exp": 178,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10198.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10198.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10199,
+    "name": "피카츄",
+    "height": 210,
+    "weight": 10000,
+    "base_exp": 112,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10199.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10199.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10200,
+    "name": "나옹",
+    "height": 330,
+    "weight": 10000,
+    "base_exp": 58,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10200.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10200.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10201,
+    "name": "괴력몬",
+    "height": 250,
+    "weight": 10000,
+    "base_exp": 227,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10201.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10201.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10202,
+    "name": "팬텀",
+    "height": 200,
+    "weight": 10000,
+    "base_exp": 225,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10202.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10202.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10203,
+    "name": "킹크랩",
+    "height": 190,
+    "weight": 10000,
+    "base_exp": 166,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10203.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10203.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10204,
+    "name": "라프라스",
+    "height": 240,
+    "weight": 10000,
+    "base_exp": 187,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10204.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10204.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10205,
+    "name": "이브이",
+    "height": 180,
+    "weight": 10000,
+    "base_exp": 65,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10205.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10205.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10206,
+    "name": "잠만보",
+    "height": 350,
+    "weight": 10000,
+    "base_exp": 189,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10206.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10206.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10207,
+    "name": "더스트나",
+    "height": 210,
+    "weight": 10000,
+    "base_exp": 166,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10207.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10207.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10208,
+    "name": "멜메탈",
+    "height": 250,
+    "weight": 10000,
+    "base_exp": 270,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10208.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10208.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10209,
+    "name": "고릴타",
+    "height": 280,
+    "weight": 10000,
+    "base_exp": 265,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10209.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10209.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10210,
+    "name": "에이스번",
+    "height": 270,
+    "weight": 10000,
+    "base_exp": 265,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10210.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10210.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10211,
+    "name": "인텔리레온",
+    "height": 400,
+    "weight": 10000,
+    "base_exp": 265,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10211.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10211.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10212,
+    "name": "아머까오",
+    "height": 140,
+    "weight": 10000,
+    "base_exp": 248,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10212.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10212.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10213,
+    "name": "이올브",
+    "height": 140,
+    "weight": 10000,
+    "base_exp": 253,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10213.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10213.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10214,
+    "name": "갈가부기",
+    "height": 240,
+    "weight": 10000,
+    "base_exp": 170,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10214.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10214.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10215,
+    "name": "석탄산",
+    "height": 420,
+    "weight": 10000,
+    "base_exp": 255,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10215.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10215.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10216,
+    "name": "애프룡",
+    "height": 240,
+    "weight": 10000,
+    "base_exp": 170,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10216.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10216.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10217,
+    "name": "단지래플",
+    "height": 240,
+    "weight": 10000,
+    "base_exp": 170,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10217.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10217.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10218,
+    "name": "사다이사",
+    "height": 220,
+    "weight": 10000,
+    "base_exp": 179,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10218.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10218.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10219,
+    "name": "스트린더",
+    "height": 240,
+    "weight": 10000,
+    "base_exp": 176,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10219.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10219.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10220,
+    "name": "다태우지네",
+    "height": 750,
+    "weight": 10000,
+    "base_exp": 184,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10220.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10220.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10221,
+    "name": "브리무음",
+    "height": 260,
+    "weight": 10000,
+    "base_exp": 255,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10221.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10221.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10222,
+    "name": "오롱털",
+    "height": 320,
+    "weight": 10000,
+    "base_exp": 255,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10222.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10222.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10223,
+    "name": "마휘핑",
+    "height": 300,
+    "weight": 10000,
+    "base_exp": 173,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10223.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10223.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10224,
+    "name": "대왕끼리동",
+    "height": 230,
+    "weight": 10000,
+    "base_exp": 175,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10224.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10224.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10225,
+    "name": "두랄루돈",
+    "height": 430,
+    "weight": 10000,
+    "base_exp": 187,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10225.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10225.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10226,
+    "name": "우라오스",
+    "height": 290,
+    "weight": 10000,
+    "base_exp": 275,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10226.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10226.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10227,
+    "name": "우라오스",
+    "height": 260,
+    "weight": 10000,
+    "base_exp": 275,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10227.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10227.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10228,
+    "name": "스트린더",
+    "height": 240,
+    "weight": 10000,
+    "base_exp": 176,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10228.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10228.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10229,
+    "name": "가디",
+    "height": 8,
+    "weight": 227,
+    "base_exp": 70,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10229.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10229.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10230,
+    "name": "윈디",
+    "height": 20,
+    "weight": 1680,
+    "base_exp": 194,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10230.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10230.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10231,
+    "name": "찌리리공",
+    "height": 5,
+    "weight": 130,
+    "base_exp": 66,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10231.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10231.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10232,
+    "name": "붐볼",
+    "height": 12,
+    "weight": 710,
+    "base_exp": 172,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10232.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10232.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10233,
+    "name": "블레이범",
+    "height": 16,
+    "weight": 698,
+    "base_exp": 240,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10233.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10233.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10234,
+    "name": "침바루",
+    "height": 5,
+    "weight": 39,
+    "base_exp": 88,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10234.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10234.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10235,
+    "name": "포푸니",
+    "height": 9,
+    "weight": 270,
+    "base_exp": 86,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10235.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10235.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10236,
+    "name": "대검귀",
+    "height": 15,
+    "weight": 582,
+    "base_exp": 238,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10236.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10236.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10237,
+    "name": "드레디어",
+    "height": 12,
+    "weight": 192,
+    "base_exp": 168,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10237.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10237.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10238,
+    "name": "조로아",
+    "height": 7,
+    "weight": 125,
+    "base_exp": 66,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10238.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10238.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10239,
+    "name": "조로아크",
+    "height": 16,
+    "weight": 730,
+    "base_exp": 179,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10239.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10239.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10240,
+    "name": "워글",
+    "height": 17,
+    "weight": 434,
+    "base_exp": 179,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10240.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10240.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10241,
+    "name": "미끄네일",
+    "height": 7,
+    "weight": 685,
+    "base_exp": 158,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10241.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10241.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10242,
+    "name": "미끄래곤",
+    "height": 17,
+    "weight": 3341,
+    "base_exp": 270,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10242.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10242.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10243,
+    "name": "크레베이스",
+    "height": 14,
+    "weight": 2624,
+    "base_exp": 180,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10243.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10243.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10244,
+    "name": "모크나이퍼",
+    "height": 16,
+    "weight": 370,
+    "base_exp": 239,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10244.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10244.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10245,
+    "name": "디아루가",
+    "height": 70,
+    "weight": 8487,
+    "base_exp": 306,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10245.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10245.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10246,
+    "name": "펄기아",
+    "height": 63,
+    "weight": 6590,
+    "base_exp": 306,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10246.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10246.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10247,
+    "name": "배쓰나이",
+    "height": 10,
+    "weight": 180,
+    "base_exp": 161,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10247.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10247.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10248,
+    "name": "대쓰여너",
+    "height": 30,
+    "weight": 1100,
+    "base_exp": 265,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10248.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10248.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10249,
+    "name": "러브로스",
+    "height": 16,
+    "weight": 480,
+    "base_exp": 116,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10249.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10249.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10250,
+    "name": "켄타로스",
+    "height": 14,
+    "weight": 1150,
+    "base_exp": 172,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10250.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10250.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10251,
+    "name": "켄타로스",
+    "height": 14,
+    "weight": 850,
+    "base_exp": 172,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10251.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10251.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10252,
+    "name": "켄타로스",
+    "height": 14,
+    "weight": 1100,
+    "base_exp": 172,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10252.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10252.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10253,
+    "name": "우파",
+    "height": 4,
+    "weight": 110,
+    "base_exp": 42,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10253.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10253.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10254,
+    "name": "퍼퓨돈",
+    "height": 10,
+    "weight": 1200,
+    "base_exp": 171,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10254.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10254.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10255,
+    "name": "노고고치",
+    "height": 45,
+    "weight": 474,
+    "base_exp": 182,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10255.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10255.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10256,
+    "name": "돌핀맨",
+    "height": 18,
+    "weight": 974,
+    "base_exp": 160,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10256.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10256.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10257,
+    "name": "파밀리쥐",
+    "height": 3,
+    "weight": 28,
+    "base_exp": 165,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10257.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10257.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10258,
+    "name": "싸리용",
+    "height": 3,
+    "weight": 80,
+    "base_exp": 166,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10258.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10258.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10259,
+    "name": "싸리용",
+    "height": 3,
+    "weight": 80,
+    "base_exp": 166,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10259.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10259.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10260,
+    "name": "시비꼬",
+    "height": 6,
+    "weight": 24,
+    "base_exp": 146,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10260.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10260.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10261,
+    "name": "시비꼬",
+    "height": 6,
+    "weight": 24,
+    "base_exp": 146,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10261.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10261.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10262,
+    "name": "시비꼬",
+    "height": 6,
+    "weight": 24,
+    "base_exp": 146,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10262.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10262.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10263,
+    "name": "모으령",
+    "height": 1,
+    "weight": 10,
+    "base_exp": 60,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10263.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10263.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10264,
+    "name": "코라이돈",
+    "height": 35,
+    "weight": 3030,
+    "base_exp": 335,
+    "image_url": null,
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10264.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10265,
+    "name": "코라이돈",
+    "height": 35,
+    "weight": 3030,
+    "base_exp": 335,
+    "image_url": null,
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10265.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10266,
+    "name": "코라이돈",
+    "height": 35,
+    "weight": 3030,
+    "base_exp": 335,
+    "image_url": null,
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10266.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10267,
+    "name": "코라이돈",
+    "height": 35,
+    "weight": 3030,
+    "base_exp": 335,
+    "image_url": null,
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10267.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10268,
+    "name": "미라이돈",
+    "height": 28,
+    "weight": 2400,
+    "base_exp": 335,
+    "image_url": null,
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10268.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10269,
+    "name": "미라이돈",
+    "height": 28,
+    "weight": 2400,
+    "base_exp": 335,
+    "image_url": null,
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10269.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10270,
+    "name": "미라이돈",
+    "height": 28,
+    "weight": 2400,
+    "base_exp": 335,
+    "image_url": null,
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10270.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10271,
+    "name": "미라이돈",
+    "height": 28,
+    "weight": 2400,
+    "base_exp": 335,
+    "image_url": null,
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10271.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10272,
+    "name": "다투곰",
+    "height": 24,
+    "weight": 2900,
+    "base_exp": 275,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10272.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10272.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10273,
+    "name": "오거폰",
+    "height": 12,
+    "weight": 398,
+    "base_exp": 275,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10273.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10273.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10274,
+    "name": "오거폰",
+    "height": 12,
+    "weight": 398,
+    "base_exp": 275,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10274.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10274.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10275,
+    "name": "오거폰",
+    "height": 12,
+    "weight": 398,
+    "base_exp": 275,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10275.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10275.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10276,
+    "name": "테라파고스",
+    "height": 3,
+    "weight": 160,
+    "base_exp": 90,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10276.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10276.ogg",
+    "is_default": false
+  },
+  {
+    "id": 10277,
+    "name": "테라파고스",
+    "height": 17,
+    "weight": 770,
+    "base_exp": 90,
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10277.png",
+    "cry_url": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10277.ogg",
+    "is_default": false
   }
 ]

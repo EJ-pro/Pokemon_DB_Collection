@@ -18,7 +18,7 @@ def main():
     scripts = [
         # "collectors/api_collector.py",
         # "processing/data_processor.py",
-        # "database/db_loader.py",
+        "database/db_loader.py",
         "database/vectorizer.py"
     ]
     

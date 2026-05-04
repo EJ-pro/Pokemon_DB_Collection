@@ -7,8 +7,12 @@ import json
 
 load_dotenv()
 
-# Initialize OpenAI Client
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+client = None
+def get_client():
+    global client
+    if client is None:
+        client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+    return client
 
 def get_connection():
     return psycopg2.connect(
@@ -26,7 +30,8 @@ def get_embedding(text):
     # Clean text: remove newlines which can sometimes affect embedding quality
     text = text.replace("\n", " ")
     try:
-        response = client.embeddings.create(input=[text], model="text-embedding-3-small")
+        c = get_client()
+        response = c.embeddings.create(input=[text], model="text-embedding-3-small")
         return response.data[0].embedding
     except Exception as e:
         print(f"Error getting embedding: {e}")
@@ -81,19 +86,25 @@ def update_processed_json(table_name, id_column="id"):
         filename = f"{table_name}.json"
         filepath = os.path.join(PROCESSED_DATA_DIR, filename)
         
-        # If file exists, update it to preserve any fields not in DB (though in this project DB is the source of truth)
         if os.path.exists(filepath):
             with open(filepath, 'r', encoding='utf-8') as f:
                 json_data = json.load(f)
             
-            embedding_map = {item[id_column]: item['embedding'] for item in db_data}
-            
             updated = False
-            for item in json_data:
-                item_id = item.get(id_column)
-                if item_id in embedding_map:
-                    item['embedding'] = embedding_map[item_id]
-                    updated = True
+            if table_name == "flavor_text":
+                embedding_map = {(item['species_id'], item['version_name']): item['embedding'] for item in db_data}
+                for item in json_data:
+                    key = (item.get('species_id'), item.get('version_name'))
+                    if key in embedding_map:
+                        item['embedding'] = embedding_map[key]
+                        updated = True
+            else:
+                embedding_map = {item[id_column]: item['embedding'] for item in db_data}
+                for item in json_data:
+                    item_id = item.get(id_column)
+                    if item_id in embedding_map:
+                        item['embedding'] = embedding_map[item_id]
+                        updated = True
             
             if updated:
                 with open(filepath, 'w', encoding='utf-8') as f:
